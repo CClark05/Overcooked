@@ -33,8 +33,8 @@
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 245.75,
-                "y": 510.5
+                "x": 245.25,
+                "y": 510
             }
         },
         "Rules/AutotileRules.tmx#AutoMap Rules": {
@@ -45,32 +45,33 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 638.75,
-                "y": 227.5
+                "x": 639.75,
+                "y": 400
             }
         },
         "Rules/Refined_RefinedRules.tmx": {
             "scale": 2.315625,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 282.6450742240216,
-                "y": 159.3522267206478
+                "x": 240.32388663967612,
+                "y": 160.21592442645075
             }
         },
         "Rules/TileToObject.tmx": {
             "expandedObjectLayers": [
-                4,
-                5,
-                2,
+                8,
                 7,
+                2,
                 6,
-                3
+                4,
+                3,
+                5
             ],
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 215.25,
-                "y": 101
+                "x": 214.75,
+                "y": 100
             }
         },
         "Rules/TileToObject.tmx#AutoMap Rules": {
@@ -78,21 +79,21 @@
         },
         "Tilemap.tmx": {
             "expandedObjectLayers": [
-                12,
-                13,
+                14,
                 9,
-                11,
-                5,
                 7,
-                6,
+                13,
+                12,
                 10,
-                14
+                11,
+                6,
+                5
             ],
             "scale": 3,
-            "selectedLayer": 1,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 187.5,
-                "y": 75.33333333333333
+                "x": 187.16666666666666,
+                "y": 74.66666666666666
             }
         }
     },
