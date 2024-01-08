@@ -1,0 +1,4 @@
+Rules\AutotileRules.tmx
+Rules\RefinedRules.tmx
+Rules\Refined_RefinedRules.tmx
+Rules\TileToObject.tmx

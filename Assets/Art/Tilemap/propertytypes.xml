@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="EmptyCounter" color="#a0a0a4">
+  <property name="SpriteNumber" type="string" default="13"/>
+ </objecttype>
+ <objecttype name="Container" color="#a0a0a4">
+  <property name="SpriteNumber" type="string" default="22"/>
+ </objecttype>
+</objecttypes>

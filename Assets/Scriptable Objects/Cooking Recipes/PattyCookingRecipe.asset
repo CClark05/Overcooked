@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ce0a12ce4a1f94baff4ea12e88949a, type: 3}
+  m_Name: PattyCookingRecipe
+  m_EditorClassIdentifier: 
+  raw: {fileID: 11400000, guid: aaebe9ff19f17cd4584b955ad4af6151, type: 2}
+  cooked: {fileID: 11400000, guid: c55c0531c5845ea4da80d9889f6bd1de, type: 2}
+  burned: {fileID: 11400000, guid: 6855df376b09d6b43a9174a4dad52b40, type: 2}
+  cookTime: 3
+  burnTime: 5

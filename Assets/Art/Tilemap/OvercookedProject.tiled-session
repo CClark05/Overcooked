@@ -1,0 +1,127 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Tilemap.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "BackgroundTilemap.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 311.75,
+                "y": 23.5
+            }
+        },
+        "Overcooked Tileset.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
+        "Rules/AutotileRules.tmx": {
+            "expandedObjectLayers": [
+                9,
+                8,
+                7
+            ],
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 245.75,
+                "y": 510.5
+            }
+        },
+        "Rules/AutotileRules.tmx#AutoMap Rules": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Rules/RefinedRules.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 638.75,
+                "y": 227.5
+            }
+        },
+        "Rules/Refined_RefinedRules.tmx": {
+            "scale": 2.315625,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 282.6450742240216,
+                "y": 159.3522267206478
+            }
+        },
+        "Rules/TileToObject.tmx": {
+            "expandedObjectLayers": [
+                4,
+                5,
+                2,
+                7,
+                6,
+                3
+            ],
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 215.25,
+                "y": 101
+            }
+        },
+        "Rules/TileToObject.tmx#AutoMap Rules": {
+            "scaleInDock": 1
+        },
+        "Tilemap.tmx": {
+            "expandedObjectLayers": [
+                12,
+                13,
+                9,
+                11,
+                5,
+                7,
+                6,
+                10,
+                14
+            ],
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 187.5,
+                "y": 75.33333333333333
+            }
+        }
+    },
+    "last.objectTemplatePath": "M:/Unity/TestProject/Assets/Art/Tilemap/ObjectTemplates",
+    "last.objectTypesPath": "M:/Unity/TestProject/Assets/Art/Tilemap/propertytypes.xml",
+    "map.height": 11,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 20,
+    "openFiles": [
+        "Overcooked Tileset.tsx",
+        "Tilemap.tmx",
+        "Rules/AutotileRules.tmx",
+        "Rules/RefinedRules.tmx",
+        "Rules/Refined_RefinedRules.tmx",
+        "Rules/TileToObject.tmx"
+    ],
+    "project": "OvercookedProject.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "BackgroundTilemap.tmx",
+        "Overcooked Tileset.tsx",
+        "Rules/TileToObject.tmx",
+        "Rules/Refined_RefinedRules.tmx",
+        "Rules/RefinedRules.tmx",
+        "Rules/AutotileRules.tmx",
+        "Tilemap.tmx",
+        ":/automap-tiles.tsx"
+    ]
+}

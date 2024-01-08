@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: 7990d0f5be98c5546a3f6391ac64c4d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6483450552748519257
+    second: FoodSprites_0
+  - first:
+      213: -2538763692132304823
+    second: FoodSprites_1
+  - first:
+      213: 3071738074517969373
+    second: FoodSprites_2
+  - first:
+      213: -9019063204840642625
+    second: FoodSprites_3
+  - first:
+      213: -7285885732686883421
+    second: FoodSprites_4
+  - first:
+      213: 8070847722055381608
+    second: FoodSprites_5
+  - first:
+      213: 1138335962174424873
+    second: FoodSprites_6
+  - first:
+      213: -1546098187911941683
+    second: FoodSprites_7
+  - first:
+      213: -1671163185514726013
+    second: FoodSprites_8
+  - first:
+      213: -5401237685648335946
+    second: FoodSprites_9
+  - first:
+      213: 238789149322432247
+    second: FoodSprites_10
+  - first:
+      213: 8704154457258827999
+    second: FoodSprites_11
+  - first:
+      213: 30755850985500494
+    second: FoodSprites_12
+  - first:
+      213: 1690424939635172025
+    second: FoodSprites_13
+  - first:
+      213: -4528944267469225831
+    second: FoodSprites_14
+  - first:
+      213: -2259163562647594926
+    second: FoodSprites_15
+  - first:
+      213: -3731142735807240924
+    second: FoodSprites_16
+  - first:
+      213: 4752252100106807915
+    second: FoodSprites_17
+  - first:
+      213: 2052722855917275178
+    second: FoodSprites_18
+  - first:
+      213: 4081374522899091192
+    second: FoodSprites_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinishedBurger
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fa26b4de7d9f950800000000000000
+      internalID: 6483450552748519257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat_Cheese_Tomato
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9487bc97fdf74ccd0800000000000000
+      internalID: -2538763692132304823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat_Cheese_Lettuce
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd99fa6018101aa20800000000000000
+      internalID: 3071738074517969373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat_Tomato_Lettuce
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb76dacdcc9d5d280800000000000000
+      internalID: -9019063204840642625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat_Tomato
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a59c15478553ea90800000000000000
+      internalID: -7285885732686883421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat_Lettuce
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862b165fd39610070800000000000000
+      internalID: 8070847722055381608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat_Cheese
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9278574c68e2ccf00800000000000000
+      internalID: 1138335962174424873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun_Meat
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc132a1c3e72b8ae0800000000000000
+      internalID: -1546098187911941683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bun
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d3faddfe5dec8e0800000000000000
+      internalID: -1671163185514726013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_Raw
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb5a7f11f2fa05b0800000000000000
+      internalID: -5401237685648335946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_Cooked
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fec4955779505300800000000000000
+      internalID: 238789149322432247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patty_Burnt
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0ab0fbc5e5bc870800000000000000
+      internalID: 8704154457258827999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_Sliced
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 98
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f61c498444d6000800000000000000
+      internalID: 30755850985500494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_Whole
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b26a6eb688957710800000000000000
+      internalID: 1690424939635172025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce_Sliced
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99084f12f25f521c0800000000000000
+      internalID: -4528944267469225831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce_Whole
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25852e695b6d5a0e0800000000000000
+      internalID: -2259163562647594926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomato_Sliced
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4252ee14371583cc0800000000000000
+      internalID: -3731142735807240924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomato_Whole
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a68f54b1463f140800000000000000
+      internalID: 4752252100106807915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce_Tomato
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a284649cf8cbc7c10800000000000000
+      internalID: 2052722855917275178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce_Tomato_Cheese
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fecab82184f3a830800000000000000
+      internalID: 4081374522899091192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plate
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 84
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb60838662bacc4fa63fac2466bcb6c
+      internalID: -808363262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuttingBoard
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4d13bddf3a6ad42a74ab9e78595d3d
+      internalID: 985095124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrows_Right
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 71
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd3bd3e69278ed4faf129f07da802da
+      internalID: -899652806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrows_Left
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 71
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181999e491e66ec4f8bba46171a1f817
+      internalID: 352039576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSprites_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 71
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8268e24cd2d225a43942619cfb1ce2ce
+      internalID: 752488693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrows_Down
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9d02f17ab8147478677636de65bf0d
+      internalID: 203960292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrows_Up
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a239cef6ebb4e5d47817ebefc314c97e
+      internalID: 1208503251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plate_Dirty
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 84
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8549768bdd8b2469ecac6402395d4e
+      internalID: -1597461689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 667b0c4b55823e64b81175b511576dfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arrows_Down: -1748977229
+      Arrows_Left: 352039576
+      Arrows_Right: -899652806
+      Arrows_Up: 1208503251
+      Bun: -1671163185514726013
+      Bun_Meat: -1546098187911941683
+      Bun_Meat_Cheese: 1138335962174424873
+      Bun_Meat_Cheese_Lettuce: 3071738074517969373
+      Bun_Meat_Cheese_Tomato: -2538763692132304823
+      Bun_Meat_Lettuce: 8070847722055381608
+      Bun_Meat_Tomato: -7285885732686883421
+      Bun_Meat_Tomato_Lettuce: -9019063204840642625
+      Cheese_Sliced: 30755850985500494
+      Cheese_Whole: 1690424939635172025
+      CuttingBoard: 985095124
+      FinishedBurger: 6483450552748519257
+      FoodSprites_1: 752488693
+      FoodSprites_4: -228086015
+      FoodSprites_5: 979426562
+      Lettuce_Sliced: -4528944267469225831
+      Lettuce_Tomato: 2052722855917275178
+      Lettuce_Tomato_Cheese: 4081374522899091192
+      Lettuce_Whole: -2259163562647594926
+      Patty_Burnt: 8704154457258827999
+      Patty_Cooked: 238789149322432247
+      Patty_Raw: -5401237685648335946
+      Plate: 401434221
+      Plate_Dirty: -1597461689
+      Tomato_Sliced: -3731142735807240924
+      Tomato_Whole: 4752252100106807915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
