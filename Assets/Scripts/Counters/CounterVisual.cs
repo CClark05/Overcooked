@@ -10,11 +10,13 @@ public class CounterVisual : MonoBehaviour
     protected BaseCounter counterInteract;
     [SerializeField] protected Transform foodVisual;
     protected float foodYPos = 0.1275f;
+    protected Color originalColor;
+    protected string selectedColor = "#CCCCCC";
     protected void Awake()
     {
         sr = GetComponentInChildren<SpriteRenderer>();
         counterInteract = GetComponent<BaseCounter>();
-        
+        originalColor = sr.color;
     }
     protected void Start()
     {
@@ -34,11 +36,14 @@ public class CounterVisual : MonoBehaviour
     {
         if (e.selectedCounter == counterInteract)
         {
-            sr.material = MaterialsManager.Instance.selectedMaterial;
+            ColorUtility.TryParseHtmlString(selectedColor, out Color newColor);
+            sr.color = newColor;
+            //sr.material = MaterialsManager.Instance.selectedMaterial;
         }
         else
         {
-            sr.material = MaterialsManager.Instance.defaultMaterial;
+            sr.color = originalColor;
+            //sr.material = MaterialsManager.Instance.defaultMaterial;
         }
     }
    

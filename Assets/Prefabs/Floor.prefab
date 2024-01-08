@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -162,3 +162,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 0}
   floorShadowSprite: {fileID: 1764569574, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
+  isShadow: 0

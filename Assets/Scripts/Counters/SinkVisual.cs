@@ -32,15 +32,14 @@ public class SinkVisual : CounterVisual
     {
         if (e.selectedCounter == counterInteract)
         {
-            //sr.color = new Color(spriteColor.r, spriteColor.g, spriteColor.b, 0.75f);
-            sr.material = MaterialsManager.Instance.selectedMaterial;
-            counterSr.material = MaterialsManager.Instance.selectedMaterial;
+            ColorUtility.TryParseHtmlString(selectedColor, out Color newColor);
+            sr.color = newColor;
+            counterSr.color = newColor;
         }
         else
         {
-            //sr.color = spriteColor;
-            sr.material = MaterialsManager.Instance.defaultMaterial;
-            counterSr.material = MaterialsManager.Instance.defaultMaterial;
+            sr.color = originalColor;
+            counterSr.color = originalColor;
         }
 
     }

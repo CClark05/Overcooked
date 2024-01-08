@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c218c9dc5f17e4f9a2275886600bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addKitchenObject: {fileID: 0}
   recipeArray:
   - {fileID: 11400000, guid: 52c11d53cb27f7f46b6a672adb59886b, type: 2}
   - {fileID: 11400000, guid: 2829b93d131226c43b6a932ac975d074, type: 2}
@@ -227,7 +228,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

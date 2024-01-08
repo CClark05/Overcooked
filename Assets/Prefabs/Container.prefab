@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5839c3f838b4944883678ccb0d5f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addKitchenObject: {fileID: 0}
   kitchenObjectSO: {fileID: 11400000, guid: 4501cea37c774a24aa517d310acb28e0, type: 2}
 --- !u!114 &2860016459978545419
 MonoBehaviour:
@@ -265,7 +266,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
