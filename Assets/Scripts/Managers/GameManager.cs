@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public event EventHandler OnStateChanged;
     public event EventHandler OnGamePaused;
     public event EventHandler OnGameResumed;
-    
+    public Action OnGameStarted;
     public enum States
     {
         WaitingToStart,
@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     private float waitingToStartTimer = 1;
     private float countdownTimer = 3;
-    private float gameTimerMax = 60;
+    private float gameTimerMax = 180;
     private float gameTimer;
 
     private bool isGamePaused = false;
@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
                     state = States.Playing;
                     gameTimer = gameTimerMax;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
+                    OnGameStarted?.Invoke();
                 }
                 break;
             case States.Playing:

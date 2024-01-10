@@ -13,37 +13,41 @@ public class DeliveryManager : MonoBehaviour
         public FoodRecipeSO recipeSO;
     }
     public event EventHandler<OnRecipesRemovedEventArgs> OnRecipeRemoved;
+    public Action<FoodRecipeSO> OnRecipeDelivered;
     public class OnRecipesRemovedEventArgs : EventArgs
     {
         public FoodRecipeSO recipeSO;
     }
     public static DeliveryManager Instance { get; private set; }
     [SerializeField] private float spawnRecipeTimer;
-    [SerializeField] private FoodRecipeSO[] recipes;
+    [SerializeField] private FoodRecipeSO[] availableRecipes;
     private List<FoodRecipeSO> currentRecipes = new List<FoodRecipeSO>();
     private int amountOfRecipesMax = 4;
-    private int amountOfRecipesDelivered = 0;
+    private int amountOfRecipesDelivered;
+    private int amountOfRecipesFailed;
     private void Awake()
     {
         Instance = this;
     }
-
+    private void Start()
+    {
+        CustomerData.OnLostPatience += CustomerLeftStore;
+        GameManager.Instance.OnGameStarted += SpawnRecipe;
+    }
     private float timer = 0;
     private void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= spawnRecipeTimer)
+        if (GameManager.Instance.GetState() == GameManager.States.Playing)
         {
-            if (currentRecipes.Count < amountOfRecipesMax)
+            timer += Time.deltaTime;
+            if (timer >= spawnRecipeTimer)
             {
-                FoodRecipeSO randomRecipe = recipes[UnityEngine.Random.Range(0, recipes.Length)];
-                currentRecipes.Add(randomRecipe);
-                OnRecipeAdded?.Invoke(this, new OnRecipesUpdatedEventArgs
+                if (currentRecipes.Count < amountOfRecipesMax)
                 {
-                    recipeSO = randomRecipe
-                });
+                    SpawnRecipe();
+                }
+                timer = 0;
             }
-            timer = 0;
         }
     }
     public bool DeliverRecipe(PlateKitchenObject plate)
@@ -60,15 +64,43 @@ public class DeliveryManager : MonoBehaviour
                 {
                     recipeSO = recipe
                 });
+                OnRecipeDelivered?.Invoke(recipe);
                 amountOfRecipesDelivered++;
                 return true;
             }
         }
         return false;
     }
+    private void CustomerLeftStore(FoodRecipeSO recipe)
+    {
+        foreach(FoodRecipeSO currentRecipe in currentRecipes)
+        {
+            if(currentRecipe == recipe)
+            {
+                currentRecipes.Remove(recipe);
+                OnRecipeRemoved?.Invoke(this, new OnRecipesRemovedEventArgs
+                {
+                    recipeSO = recipe
+                });
+                amountOfRecipesFailed++;
+                timer = 0;
+                return;
+            }
+        }
+        Debug.LogError("Customer had invalid recipe");
+    }
+    private void SpawnRecipe()
+    {
+        FoodRecipeSO randomRecipe = availableRecipes[UnityEngine.Random.Range(0, availableRecipes.Length)];
+        currentRecipes.Add(randomRecipe);
+        OnRecipeAdded?.Invoke(this, new OnRecipesUpdatedEventArgs
+        {
+            recipeSO = randomRecipe
+        });
+    }
     public FoodRecipeSO[] GetRecipes()
     {
-        return recipes;
+        return availableRecipes;
     }
     public List<FoodRecipeSO> GetCurrentRecipes()
     {

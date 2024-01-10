@@ -1,863 +1,866 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="31845">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="32951">
  <tileset firstgid="1" source="Overcooked Tileset.tsx"/>
  <layer id="1" name="prototype" width="20" height="11" opacity="0.19">
   <data encoding="base64">
-   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAADgAAAA4AAAAOAAAAAAAAAAAAAAAAAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAAAAAAAAAAAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAOAAAADgAAAA4AAAAOAAAAJgAAADQAAAAmAAAANAAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAADgAAAA4AAAAOAAAAAAAAAAAAAAAAAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAAAAAAAAAAAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
   </data>
  </layer>
  <layer id="2" name="ground" width="20" height="11">
   <data encoding="base64">
-   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAHAAAABAAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAAQAAAAEAAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAABAAAAAQAAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAEAAAABAAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAAQAAAAEAAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAABAAAAAQAAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAEAAAABQAAAAoAAAANAAAAOwAAADkAAAA6AAAAAgAAAAoAAAAKAAAACgAAAAoAAAANAAAANQAAADYAAAACAAAACgAAAAoAAAAKAAAACgAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAKAAAACgAAAAoAAAAKAAAAJAAAADIAAAAkAAAAMgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAHAAAABAAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAAQAAAASAAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAABAAAABIAAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAEAAAAEgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAAQAAAASAAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAABAAAABIAAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAAEAAAABQAAAAoAAAANAAAAOwAAADkAAAA6AAAAAgAAAAoAAAAKAAAACgAAAAoAAAANAAAANQAAADYAAAACAAAACgAAAAoAAAAKAAAACgAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
   </data>
  </layer>
  <objectgroup id="5" name="EmptyCounter">
-  <object id="31687" name="EmptyCounter" type="EmptyCounter" x="96" y="144" width="16" height="16">
+  <object id="32798" name="EmptyCounter" type="EmptyCounter" x="96" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="1"/>
    </properties>
   </object>
-  <object id="31688" name="EmptyCounter" type="EmptyCounter" x="224" y="144" width="16" height="16">
+  <object id="32799" name="EmptyCounter" type="EmptyCounter" x="224" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="1"/>
    </properties>
   </object>
-  <object id="31689" name="EmptyCounter" type="EmptyCounter" x="0" y="32" width="16" height="16">
+  <object id="32800" name="EmptyCounter" type="EmptyCounter" x="0" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="2"/>
    </properties>
   </object>
-  <object id="31690" name="EmptyCounter" type="EmptyCounter" x="0" y="48" width="16" height="16">
+  <object id="32801" name="EmptyCounter" type="EmptyCounter" x="0" y="48" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31691" name="EmptyCounter" type="EmptyCounter" x="304" y="48" width="16" height="16">
+  <object id="32802" name="EmptyCounter" type="EmptyCounter" x="304" y="48" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31692" name="EmptyCounter" type="EmptyCounter" x="0" y="64" width="16" height="16">
+  <object id="32803" name="EmptyCounter" type="EmptyCounter" x="304" y="64" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31693" name="EmptyCounter" type="EmptyCounter" x="304" y="64" width="16" height="16">
+  <object id="32804" name="EmptyCounter" type="EmptyCounter" x="304" y="80" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31694" name="EmptyCounter" type="EmptyCounter" x="0" y="80" width="16" height="16">
+  <object id="32805" name="EmptyCounter" type="EmptyCounter" x="304" y="96" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31695" name="EmptyCounter" type="EmptyCounter" x="304" y="80" width="16" height="16">
+  <object id="32806" name="EmptyCounter" type="EmptyCounter" x="304" y="112" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31696" name="EmptyCounter" type="EmptyCounter" x="0" y="96" width="16" height="16">
+  <object id="32807" name="EmptyCounter" type="EmptyCounter" x="304" y="128" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
-  <object id="31697" name="EmptyCounter" type="EmptyCounter" x="304" y="96" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="false"/>
-    <property name="SpriteNumber" type="int" value="3"/>
-   </properties>
-  </object>
-  <object id="31698" name="EmptyCounter" type="EmptyCounter" x="0" y="112" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="false"/>
-    <property name="SpriteNumber" type="int" value="3"/>
-   </properties>
-  </object>
-  <object id="31699" name="EmptyCounter" type="EmptyCounter" x="304" y="112" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="false"/>
-    <property name="SpriteNumber" type="int" value="3"/>
-   </properties>
-  </object>
-  <object id="31700" name="EmptyCounter" type="EmptyCounter" x="0" y="128" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="false"/>
-    <property name="SpriteNumber" type="int" value="3"/>
-   </properties>
-  </object>
-  <object id="31701" name="EmptyCounter" type="EmptyCounter" x="304" y="128" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="false"/>
-    <property name="SpriteNumber" type="int" value="3"/>
-   </properties>
-  </object>
-  <object id="31702" name="EmptyCounter" type="EmptyCounter" x="0" y="144" width="16" height="16">
+  <object id="32808" name="EmptyCounter" type="EmptyCounter" x="0" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="4"/>
    </properties>
   </object>
-  <object id="31703" name="EmptyCounter" type="EmptyCounter" x="304" y="144" width="16" height="16">
+  <object id="32809" name="EmptyCounter" type="EmptyCounter" x="304" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="5"/>
    </properties>
   </object>
-  <object id="31704" name="EmptyCounter" type="EmptyCounter" x="304" y="32" width="16" height="16">
+  <object id="32810" name="EmptyCounter" type="EmptyCounter" x="304" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="6"/>
    </properties>
   </object>
-  <object id="31705" name="EmptyCounter" type="EmptyCounter" x="16" y="32" width="16" height="16">
+  <object id="32811" name="EmptyCounter" type="EmptyCounter" x="16" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31706" name="EmptyCounter" type="EmptyCounter" x="32" y="32" width="16" height="16">
+  <object id="32812" name="EmptyCounter" type="EmptyCounter" x="32" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31707" name="EmptyCounter" type="EmptyCounter" x="48" y="32" width="16" height="16">
+  <object id="32813" name="EmptyCounter" type="EmptyCounter" x="48" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31708" name="EmptyCounter" type="EmptyCounter" x="64" y="32" width="16" height="16">
+  <object id="32814" name="EmptyCounter" type="EmptyCounter" x="64" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31709" name="EmptyCounter" type="EmptyCounter" x="80" y="32" width="16" height="16">
+  <object id="32815" name="EmptyCounter" type="EmptyCounter" x="144" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31710" name="EmptyCounter" type="EmptyCounter" x="96" y="32" width="16" height="16">
+  <object id="32816" name="EmptyCounter" type="EmptyCounter" x="160" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31711" name="EmptyCounter" type="EmptyCounter" x="112" y="32" width="16" height="16">
+  <object id="32817" name="EmptyCounter" type="EmptyCounter" x="176" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31712" name="EmptyCounter" type="EmptyCounter" x="128" y="32" width="16" height="16">
+  <object id="32818" name="EmptyCounter" type="EmptyCounter" x="192" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31713" name="EmptyCounter" type="EmptyCounter" x="144" y="32" width="16" height="16">
+  <object id="32819" name="EmptyCounter" type="EmptyCounter" x="208" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31714" name="EmptyCounter" type="EmptyCounter" x="160" y="32" width="16" height="16">
+  <object id="32820" name="EmptyCounter" type="EmptyCounter" x="224" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31715" name="EmptyCounter" type="EmptyCounter" x="176" y="32" width="16" height="16">
+  <object id="32821" name="EmptyCounter" type="EmptyCounter" x="240" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31716" name="EmptyCounter" type="EmptyCounter" x="192" y="32" width="16" height="16">
+  <object id="32822" name="EmptyCounter" type="EmptyCounter" x="256" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31717" name="EmptyCounter" type="EmptyCounter" x="208" y="32" width="16" height="16">
+  <object id="32823" name="EmptyCounter" type="EmptyCounter" x="272" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31718" name="EmptyCounter" type="EmptyCounter" x="224" y="32" width="16" height="16">
+  <object id="32824" name="EmptyCounter" type="EmptyCounter" x="288" y="32" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31719" name="EmptyCounter" type="EmptyCounter" x="240" y="32" width="16" height="16">
+  <object id="32825" name="EmptyCounter" type="EmptyCounter" x="16" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31720" name="EmptyCounter" type="EmptyCounter" x="256" y="32" width="16" height="16">
+  <object id="32826" name="EmptyCounter" type="EmptyCounter" x="112" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31721" name="EmptyCounter" type="EmptyCounter" x="272" y="32" width="16" height="16">
+  <object id="32827" name="EmptyCounter" type="EmptyCounter" x="128" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31722" name="EmptyCounter" type="EmptyCounter" x="288" y="32" width="16" height="16">
+  <object id="32828" name="EmptyCounter" type="EmptyCounter" x="144" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31723" name="EmptyCounter" type="EmptyCounter" x="16" y="144" width="16" height="16">
+  <object id="32829" name="EmptyCounter" type="EmptyCounter" x="160" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31724" name="EmptyCounter" type="EmptyCounter" x="112" y="144" width="16" height="16">
+  <object id="32830" name="EmptyCounter" type="EmptyCounter" x="240" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31725" name="EmptyCounter" type="EmptyCounter" x="128" y="144" width="16" height="16">
+  <object id="32831" name="EmptyCounter" type="EmptyCounter" x="256" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31726" name="EmptyCounter" type="EmptyCounter" x="144" y="144" width="16" height="16">
+  <object id="32832" name="EmptyCounter" type="EmptyCounter" x="272" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31727" name="EmptyCounter" type="EmptyCounter" x="160" y="144" width="16" height="16">
+  <object id="32833" name="EmptyCounter" type="EmptyCounter" x="288" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
-  <object id="31728" name="EmptyCounter" type="EmptyCounter" x="240" y="144" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="true"/>
-    <property name="SpriteNumber" type="int" value="9"/>
-   </properties>
-  </object>
-  <object id="31729" name="EmptyCounter" type="EmptyCounter" x="256" y="144" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="true"/>
-    <property name="SpriteNumber" type="int" value="9"/>
-   </properties>
-  </object>
-  <object id="31730" name="EmptyCounter" type="EmptyCounter" x="272" y="144" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="true"/>
-    <property name="SpriteNumber" type="int" value="9"/>
-   </properties>
-  </object>
-  <object id="31731" name="EmptyCounter" type="EmptyCounter" x="288" y="144" width="16" height="16">
-   <properties>
-    <property name="IsEdge" type="bool" value="true"/>
-    <property name="SpriteNumber" type="int" value="9"/>
-   </properties>
-  </object>
-  <object id="31732" name="EmptyCounter" type="EmptyCounter" x="32" y="144" width="16" height="16">
+  <object id="32834" name="EmptyCounter" type="EmptyCounter" x="32" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="12"/>
    </properties>
   </object>
-  <object id="31733" name="EmptyCounter" type="EmptyCounter" x="176" y="144" width="16" height="16">
+  <object id="32835" name="EmptyCounter" type="EmptyCounter" x="176" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="12"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Container"/>
+ <objectgroup id="6" name="Container">
+  <object id="32793" name="Container" type="Container" x="0" y="64" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="false"/>
+    <property name="SpriteNumber" type="int" value="18"/>
+   </properties>
+  </object>
+  <object id="32794" name="Container" type="Container" x="0" y="80" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="false"/>
+    <property name="SpriteNumber" type="int" value="18"/>
+   </properties>
+  </object>
+  <object id="32795" name="Container" type="Container" x="0" y="96" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="false"/>
+    <property name="SpriteNumber" type="int" value="18"/>
+   </properties>
+  </object>
+  <object id="32796" name="Container" type="Container" x="0" y="112" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="false"/>
+    <property name="SpriteNumber" type="int" value="18"/>
+   </properties>
+  </object>
+  <object id="32797" name="Container" type="Container" x="0" y="128" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="false"/>
+    <property name="SpriteNumber" type="int" value="18"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Conveyor"/>
  <objectgroup id="9" name="TrashBin"/>
- <objectgroup id="10" name="CuttingBoard"/>
- <objectgroup id="11" name="StoveTop"/>
+ <objectgroup id="10" name="CuttingBoard">
+  <object id="32838" name="CuttingBoard" type="CuttingBoard" x="80" y="32" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="true"/>
+    <property name="SpriteNumber" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="32839" name="CuttingBoard" type="CuttingBoard" x="112" y="32" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="true"/>
+    <property name="SpriteNumber" type="int" value="35"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="StoveTop">
+  <object id="32836" name="StoveTop" type="StoveTop" x="96" y="32" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="true"/>
+    <property name="SpriteNumber" type="int" value="49"/>
+   </properties>
+  </object>
+  <object id="32837" name="StoveTop" type="StoveTop" x="128" y="32" width="16" height="16">
+   <properties>
+    <property name="IsEdge" type="bool" value="true"/>
+    <property name="SpriteNumber" type="int" value="49"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="12" name="Sink">
-  <object id="31734" name="Sink" type="Sink" x="64" y="144" width="32" height="16">
+  <object id="32840" name="Sink" type="Sink" x="64" y="144" width="32" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="13" name="PlateCounter">
-  <object id="31735" name="PlateCounter" type="PlateCounter" x="48" y="144" width="16" height="16">
+  <object id="32841" name="PlateCounter" type="PlateCounter" x="48" y="144" width="16" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="14" name="Floor" opacity="0.97">
-  <object id="31736" name="Floor" type="Floor" x="16" y="64" width="16" height="16">
+  <object id="32842" name="Floor" type="Floor" x="16" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31737" name="Floor" type="Floor" x="32" y="64" width="16" height="16">
+  <object id="32843" name="Floor" type="Floor" x="32" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31738" name="Floor" type="Floor" x="48" y="64" width="16" height="16">
+  <object id="32844" name="Floor" type="Floor" x="48" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31739" name="Floor" type="Floor" x="64" y="64" width="16" height="16">
+  <object id="32845" name="Floor" type="Floor" x="64" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31740" name="Floor" type="Floor" x="80" y="64" width="16" height="16">
+  <object id="32846" name="Floor" type="Floor" x="80" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31741" name="Floor" type="Floor" x="96" y="64" width="16" height="16">
+  <object id="32847" name="Floor" type="Floor" x="96" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31742" name="Floor" type="Floor" x="112" y="64" width="16" height="16">
+  <object id="32848" name="Floor" type="Floor" x="112" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31743" name="Floor" type="Floor" x="128" y="64" width="16" height="16">
+  <object id="32849" name="Floor" type="Floor" x="128" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31744" name="Floor" type="Floor" x="144" y="64" width="16" height="16">
+  <object id="32850" name="Floor" type="Floor" x="144" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31745" name="Floor" type="Floor" x="160" y="64" width="16" height="16">
+  <object id="32851" name="Floor" type="Floor" x="160" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31746" name="Floor" type="Floor" x="176" y="64" width="16" height="16">
+  <object id="32852" name="Floor" type="Floor" x="176" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31747" name="Floor" type="Floor" x="192" y="64" width="16" height="16">
+  <object id="32853" name="Floor" type="Floor" x="192" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31748" name="Floor" type="Floor" x="208" y="64" width="16" height="16">
+  <object id="32854" name="Floor" type="Floor" x="208" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31749" name="Floor" type="Floor" x="224" y="64" width="16" height="16">
+  <object id="32855" name="Floor" type="Floor" x="224" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31750" name="Floor" type="Floor" x="240" y="64" width="16" height="16">
+  <object id="32856" name="Floor" type="Floor" x="240" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31751" name="Floor" type="Floor" x="256" y="64" width="16" height="16">
+  <object id="32857" name="Floor" type="Floor" x="256" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31752" name="Floor" type="Floor" x="272" y="64" width="16" height="16">
+  <object id="32858" name="Floor" type="Floor" x="272" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31753" name="Floor" type="Floor" x="288" y="64" width="16" height="16">
+  <object id="32859" name="Floor" type="Floor" x="288" y="64" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31754" name="Floor" type="Floor" x="16" y="80" width="16" height="16">
+  <object id="32860" name="Floor" type="Floor" x="16" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31755" name="Floor" type="Floor" x="32" y="80" width="16" height="16">
+  <object id="32861" name="Floor" type="Floor" x="32" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31756" name="Floor" type="Floor" x="48" y="80" width="16" height="16">
+  <object id="32862" name="Floor" type="Floor" x="48" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31757" name="Floor" type="Floor" x="64" y="80" width="16" height="16">
+  <object id="32863" name="Floor" type="Floor" x="64" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31758" name="Floor" type="Floor" x="80" y="80" width="16" height="16">
+  <object id="32864" name="Floor" type="Floor" x="80" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31759" name="Floor" type="Floor" x="96" y="80" width="16" height="16">
+  <object id="32865" name="Floor" type="Floor" x="96" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31760" name="Floor" type="Floor" x="112" y="80" width="16" height="16">
+  <object id="32866" name="Floor" type="Floor" x="112" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31761" name="Floor" type="Floor" x="128" y="80" width="16" height="16">
+  <object id="32867" name="Floor" type="Floor" x="128" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31762" name="Floor" type="Floor" x="144" y="80" width="16" height="16">
+  <object id="32868" name="Floor" type="Floor" x="144" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31763" name="Floor" type="Floor" x="160" y="80" width="16" height="16">
+  <object id="32869" name="Floor" type="Floor" x="160" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31764" name="Floor" type="Floor" x="176" y="80" width="16" height="16">
+  <object id="32870" name="Floor" type="Floor" x="176" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31765" name="Floor" type="Floor" x="192" y="80" width="16" height="16">
+  <object id="32871" name="Floor" type="Floor" x="192" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31766" name="Floor" type="Floor" x="208" y="80" width="16" height="16">
+  <object id="32872" name="Floor" type="Floor" x="208" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31767" name="Floor" type="Floor" x="224" y="80" width="16" height="16">
+  <object id="32873" name="Floor" type="Floor" x="224" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31768" name="Floor" type="Floor" x="240" y="80" width="16" height="16">
+  <object id="32874" name="Floor" type="Floor" x="240" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31769" name="Floor" type="Floor" x="256" y="80" width="16" height="16">
+  <object id="32875" name="Floor" type="Floor" x="256" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31770" name="Floor" type="Floor" x="272" y="80" width="16" height="16">
+  <object id="32876" name="Floor" type="Floor" x="272" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31771" name="Floor" type="Floor" x="288" y="80" width="16" height="16">
+  <object id="32877" name="Floor" type="Floor" x="288" y="80" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31772" name="Floor" type="Floor" x="16" y="96" width="16" height="16">
+  <object id="32878" name="Floor" type="Floor" x="16" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31773" name="Floor" type="Floor" x="32" y="96" width="16" height="16">
+  <object id="32879" name="Floor" type="Floor" x="32" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31774" name="Floor" type="Floor" x="48" y="96" width="16" height="16">
+  <object id="32880" name="Floor" type="Floor" x="48" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31775" name="Floor" type="Floor" x="64" y="96" width="16" height="16">
+  <object id="32881" name="Floor" type="Floor" x="64" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31776" name="Floor" type="Floor" x="80" y="96" width="16" height="16">
+  <object id="32882" name="Floor" type="Floor" x="80" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31777" name="Floor" type="Floor" x="96" y="96" width="16" height="16">
+  <object id="32883" name="Floor" type="Floor" x="96" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31778" name="Floor" type="Floor" x="112" y="96" width="16" height="16">
+  <object id="32884" name="Floor" type="Floor" x="112" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31779" name="Floor" type="Floor" x="128" y="96" width="16" height="16">
+  <object id="32885" name="Floor" type="Floor" x="128" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31780" name="Floor" type="Floor" x="144" y="96" width="16" height="16">
+  <object id="32886" name="Floor" type="Floor" x="144" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31781" name="Floor" type="Floor" x="160" y="96" width="16" height="16">
+  <object id="32887" name="Floor" type="Floor" x="160" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31782" name="Floor" type="Floor" x="176" y="96" width="16" height="16">
+  <object id="32888" name="Floor" type="Floor" x="176" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31783" name="Floor" type="Floor" x="192" y="96" width="16" height="16">
+  <object id="32889" name="Floor" type="Floor" x="192" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31784" name="Floor" type="Floor" x="208" y="96" width="16" height="16">
+  <object id="32890" name="Floor" type="Floor" x="208" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31785" name="Floor" type="Floor" x="224" y="96" width="16" height="16">
+  <object id="32891" name="Floor" type="Floor" x="224" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31786" name="Floor" type="Floor" x="240" y="96" width="16" height="16">
+  <object id="32892" name="Floor" type="Floor" x="240" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31787" name="Floor" type="Floor" x="256" y="96" width="16" height="16">
+  <object id="32893" name="Floor" type="Floor" x="256" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31788" name="Floor" type="Floor" x="272" y="96" width="16" height="16">
+  <object id="32894" name="Floor" type="Floor" x="272" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31789" name="Floor" type="Floor" x="288" y="96" width="16" height="16">
+  <object id="32895" name="Floor" type="Floor" x="288" y="96" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31790" name="Floor" type="Floor" x="16" y="112" width="16" height="16">
+  <object id="32896" name="Floor" type="Floor" x="16" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31791" name="Floor" type="Floor" x="32" y="112" width="16" height="16">
+  <object id="32897" name="Floor" type="Floor" x="32" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31792" name="Floor" type="Floor" x="48" y="112" width="16" height="16">
+  <object id="32898" name="Floor" type="Floor" x="48" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31793" name="Floor" type="Floor" x="64" y="112" width="16" height="16">
+  <object id="32899" name="Floor" type="Floor" x="64" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31794" name="Floor" type="Floor" x="80" y="112" width="16" height="16">
+  <object id="32900" name="Floor" type="Floor" x="80" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31795" name="Floor" type="Floor" x="96" y="112" width="16" height="16">
+  <object id="32901" name="Floor" type="Floor" x="96" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31796" name="Floor" type="Floor" x="112" y="112" width="16" height="16">
+  <object id="32902" name="Floor" type="Floor" x="112" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31797" name="Floor" type="Floor" x="128" y="112" width="16" height="16">
+  <object id="32903" name="Floor" type="Floor" x="128" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31798" name="Floor" type="Floor" x="144" y="112" width="16" height="16">
+  <object id="32904" name="Floor" type="Floor" x="144" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31799" name="Floor" type="Floor" x="160" y="112" width="16" height="16">
+  <object id="32905" name="Floor" type="Floor" x="160" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31800" name="Floor" type="Floor" x="176" y="112" width="16" height="16">
+  <object id="32906" name="Floor" type="Floor" x="176" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31801" name="Floor" type="Floor" x="192" y="112" width="16" height="16">
+  <object id="32907" name="Floor" type="Floor" x="192" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31802" name="Floor" type="Floor" x="208" y="112" width="16" height="16">
+  <object id="32908" name="Floor" type="Floor" x="208" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31803" name="Floor" type="Floor" x="224" y="112" width="16" height="16">
+  <object id="32909" name="Floor" type="Floor" x="224" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31804" name="Floor" type="Floor" x="240" y="112" width="16" height="16">
+  <object id="32910" name="Floor" type="Floor" x="240" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31805" name="Floor" type="Floor" x="256" y="112" width="16" height="16">
+  <object id="32911" name="Floor" type="Floor" x="256" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31806" name="Floor" type="Floor" x="272" y="112" width="16" height="16">
+  <object id="32912" name="Floor" type="Floor" x="272" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31807" name="Floor" type="Floor" x="288" y="112" width="16" height="16">
+  <object id="32913" name="Floor" type="Floor" x="288" y="112" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31808" name="Floor" type="Floor" x="16" y="128" width="16" height="16">
+  <object id="32914" name="Floor" type="Floor" x="16" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31809" name="Floor" type="Floor" x="32" y="128" width="16" height="16">
+  <object id="32915" name="Floor" type="Floor" x="32" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31810" name="Floor" type="Floor" x="48" y="128" width="16" height="16">
+  <object id="32916" name="Floor" type="Floor" x="48" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31811" name="Floor" type="Floor" x="64" y="128" width="16" height="16">
+  <object id="32917" name="Floor" type="Floor" x="64" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31812" name="Floor" type="Floor" x="80" y="128" width="16" height="16">
+  <object id="32918" name="Floor" type="Floor" x="80" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31813" name="Floor" type="Floor" x="96" y="128" width="16" height="16">
+  <object id="32919" name="Floor" type="Floor" x="96" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31814" name="Floor" type="Floor" x="112" y="128" width="16" height="16">
+  <object id="32920" name="Floor" type="Floor" x="112" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31815" name="Floor" type="Floor" x="128" y="128" width="16" height="16">
+  <object id="32921" name="Floor" type="Floor" x="128" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31816" name="Floor" type="Floor" x="144" y="128" width="16" height="16">
+  <object id="32922" name="Floor" type="Floor" x="144" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31817" name="Floor" type="Floor" x="160" y="128" width="16" height="16">
+  <object id="32923" name="Floor" type="Floor" x="160" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31818" name="Floor" type="Floor" x="176" y="128" width="16" height="16">
+  <object id="32924" name="Floor" type="Floor" x="176" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31819" name="Floor" type="Floor" x="192" y="128" width="16" height="16">
+  <object id="32925" name="Floor" type="Floor" x="192" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31820" name="Floor" type="Floor" x="208" y="128" width="16" height="16">
+  <object id="32926" name="Floor" type="Floor" x="208" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31821" name="Floor" type="Floor" x="224" y="128" width="16" height="16">
+  <object id="32927" name="Floor" type="Floor" x="224" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31822" name="Floor" type="Floor" x="240" y="128" width="16" height="16">
+  <object id="32928" name="Floor" type="Floor" x="240" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31823" name="Floor" type="Floor" x="256" y="128" width="16" height="16">
+  <object id="32929" name="Floor" type="Floor" x="256" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31824" name="Floor" type="Floor" x="272" y="128" width="16" height="16">
+  <object id="32930" name="Floor" type="Floor" x="272" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31825" name="Floor" type="Floor" x="288" y="128" width="16" height="16">
+  <object id="32931" name="Floor" type="Floor" x="288" y="128" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="false"/>
    </properties>
   </object>
-  <object id="31826" name="Floor" type="Floor" x="16" y="48" width="16" height="16">
+  <object id="32932" name="Floor" type="Floor" x="16" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31827" name="Floor" type="Floor" x="32" y="48" width="16" height="16">
+  <object id="32933" name="Floor" type="Floor" x="32" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31828" name="Floor" type="Floor" x="48" y="48" width="16" height="16">
+  <object id="32934" name="Floor" type="Floor" x="48" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31829" name="Floor" type="Floor" x="64" y="48" width="16" height="16">
+  <object id="32935" name="Floor" type="Floor" x="64" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31830" name="Floor" type="Floor" x="80" y="48" width="16" height="16">
+  <object id="32936" name="Floor" type="Floor" x="80" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31831" name="Floor" type="Floor" x="96" y="48" width="16" height="16">
+  <object id="32937" name="Floor" type="Floor" x="96" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31832" name="Floor" type="Floor" x="112" y="48" width="16" height="16">
+  <object id="32938" name="Floor" type="Floor" x="112" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31833" name="Floor" type="Floor" x="128" y="48" width="16" height="16">
+  <object id="32939" name="Floor" type="Floor" x="128" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31834" name="Floor" type="Floor" x="144" y="48" width="16" height="16">
+  <object id="32940" name="Floor" type="Floor" x="144" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31835" name="Floor" type="Floor" x="160" y="48" width="16" height="16">
+  <object id="32941" name="Floor" type="Floor" x="160" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31836" name="Floor" type="Floor" x="176" y="48" width="16" height="16">
+  <object id="32942" name="Floor" type="Floor" x="176" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31837" name="Floor" type="Floor" x="192" y="48" width="16" height="16">
+  <object id="32943" name="Floor" type="Floor" x="192" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31838" name="Floor" type="Floor" x="208" y="48" width="16" height="16">
+  <object id="32944" name="Floor" type="Floor" x="208" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31839" name="Floor" type="Floor" x="224" y="48" width="16" height="16">
+  <object id="32945" name="Floor" type="Floor" x="224" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31840" name="Floor" type="Floor" x="240" y="48" width="16" height="16">
+  <object id="32946" name="Floor" type="Floor" x="240" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31841" name="Floor" type="Floor" x="256" y="48" width="16" height="16">
+  <object id="32947" name="Floor" type="Floor" x="256" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31842" name="Floor" type="Floor" x="272" y="48" width="16" height="16">
+  <object id="32948" name="Floor" type="Floor" x="272" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="31843" name="Floor" type="Floor" x="288" y="48" width="16" height="16">
+  <object id="32949" name="Floor" type="Floor" x="288" y="48" width="16" height="16">
    <properties>
     <property name="IsShadow" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="18" name="DeliveryCounter">
-  <object id="31844" name="DeliveryCounter" type="DeliveryCounter" x="192" y="144" width="32" height="16">
+  <object id="32950" name="DeliveryCounter" type="DeliveryCounter" x="192" y="144" width="32" height="16">
    <properties>
     <property name="IsEdge" type="bool" value="true"/>
    </properties>

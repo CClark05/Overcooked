@@ -26,15 +26,15 @@
         },
         "Rules/AutotileRules.tmx": {
             "expandedObjectLayers": [
+                7,
                 9,
-                8,
-                7
+                8
             ],
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 245.25,
-                "y": 510
+                "x": 589.25,
+                "y": 399.75
             }
         },
         "Rules/AutotileRules.tmx#AutoMap Rules": {
@@ -46,32 +46,32 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 639.75,
-                "y": 400
+                "y": 399.75
             }
         },
         "Rules/Refined_RefinedRules.tmx": {
             "scale": 2.315625,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 240.32388663967612,
-                "y": 160.21592442645075
+                "x": 283.72469635627533,
+                "y": 160
             }
         },
         "Rules/TileToObject.tmx": {
             "expandedObjectLayers": [
-                8,
-                7,
-                2,
-                6,
-                4,
                 3,
-                5
+                2,
+                5,
+                7,
+                4,
+                6,
+                8
             ],
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 214.75,
-                "y": 100
+                "x": 215.5,
+                "y": 159.75
             }
         },
         "Rules/TileToObject.tmx#AutoMap Rules": {
@@ -80,20 +80,20 @@
         "Tilemap.tmx": {
             "expandedObjectLayers": [
                 14,
-                9,
+                5,
                 7,
-                13,
-                12,
                 10,
                 11,
-                6,
-                5
+                13,
+                9,
+                12,
+                6
             ],
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 187.16666666666666,
-                "y": 74.66666666666666
+                "x": 159.83333333333331,
+                "y": 88.16666666666666
             }
         }
     },

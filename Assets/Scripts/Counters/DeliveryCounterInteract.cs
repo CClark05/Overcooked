@@ -22,11 +22,5 @@ public class DeliveryCounterInteract : BaseCounter
 
         }
     }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            OnFoodDelivered?.Invoke();
-        }
-    }
+
 }
