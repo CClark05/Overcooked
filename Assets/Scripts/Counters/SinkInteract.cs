@@ -32,7 +32,6 @@ public class SinkInteract : BaseCounter, IHasProgressBar
                     dirtyPlates.Add(player.GetKitchenObject() as PlateKitchenObject);
                     player.GetKitchenObject().DestroySelf();
                     OnHasDirtyPlate?.Invoke();
-                    Debug.Log(dirtyPlates.Count);
                     return;
                 }
                 Debug.Log("not dirty");

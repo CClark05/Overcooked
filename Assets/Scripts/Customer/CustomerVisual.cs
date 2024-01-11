@@ -5,16 +5,23 @@ using UnityEngine;
 public class CustomerVisual : MonoBehaviour
 {
     [SerializeField] private Transform foodParent;
+    private GameObject foodVisual;
     private void Start()
     {
-        GetComponent<CustomerData>().OnGotFood += GotFood;
+        GetComponent<CustomerMovement>().OnRecievedFood += GotFood;
+        GetComponent<CustomerMovement>().OnDoneEating += DoneEating;
     }
     private void GotFood(FoodRecipeSO recipe)
     {
-        GameObject foodVisual = new GameObject("food visual");
+        foodVisual = new GameObject("food visual");
         foodVisual.transform.parent = foodParent;
         foodVisual.transform.localPosition = Vector3.zero;
         foodVisual.AddComponent<SpriteRenderer>();
         foodVisual.GetComponent<SpriteRenderer>().sprite = recipe.sprite;
+    }
+    private void DoneEating()
+    {
+        Debug.Log("test");
+        Destroy(foodVisual);
     }
 }

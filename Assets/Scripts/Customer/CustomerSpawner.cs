@@ -34,7 +34,7 @@ public class CustomerSpawner : MonoBehaviour
             if(customer.GetRecipe() == recipe)
             {
                 customerMoods.Add(customer.GetMood());
-                customer.GotRecipe();
+                customer.FoodReady();
                 return;
             }
         }

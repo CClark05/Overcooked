@@ -6,7 +6,7 @@ using UnityEngine;
 public class CustomerData : MonoBehaviour
 {
     public static Action<FoodRecipeSO> OnLostPatience;
-    public Action<FoodRecipeSO> OnGotFood;
+    public Action<FoodRecipeSO> OnFoodReady;
     public enum Moods
     {
         Content, 
@@ -17,9 +17,11 @@ public class CustomerData : MonoBehaviour
     [SerializeField] private Moods mood;
     [SerializeField] private FoodRecipeSO recipe;
     [SerializeField] private float patienceLevel;
+    private bool hasFood;
     private float _patienceLevel;
     private float minPatience = 20; //20
     private float maxPatience = 40; //40
+    private float eatTime = 3;
     private void Awake()
     {
         mood = Moods.Content;
@@ -28,6 +30,8 @@ public class CustomerData : MonoBehaviour
     }
     private void Update()
     {
+
+        if (hasFood) return;
         patienceLevel -= Time.deltaTime;
         if(patienceLevel < 0)
         {
@@ -54,14 +58,14 @@ public class CustomerData : MonoBehaviour
                 break;
             case Moods.Angry:
                 OnLostPatience?.Invoke(recipe);
-                OnGotFood?.Invoke(null);
+                OnFoodReady?.Invoke(null);
                 break;
         }
     }
-    public void GotRecipe()
+    public void FoodReady()
     {
-        OnGotFood?.Invoke(recipe);
-        
+        OnFoodReady?.Invoke(recipe);
+        hasFood = true;
     }
     public FoodRecipeSO GetRecipe()
     {
@@ -71,7 +75,10 @@ public class CustomerData : MonoBehaviour
     {
         return mood;
     }
-
+    public float GetEatTime()
+    {
+        return eatTime;
+    }
 
 
 }
