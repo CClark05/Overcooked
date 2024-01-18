@@ -14,28 +14,47 @@ public class CustomerMovement : MonoBehaviour
         LeavingStore
     }
     [SerializeField] private States state;
+    private float moveDistance = 2;
+    private float idleTime = 3;
     private CustomerData customerData;
     public Action<FoodRecipeSO> OnRecievedFood;
     public Action OnDoneEating;
+
     private PathfindingMovement pathfindingMovement;
     private FoodRecipeSO recipe;
-
+    private Chair chair = null;
+    Target randomTarget = null;
     private void Awake()
     {
         customerData = GetComponent<CustomerData>();
         pathfindingMovement = GetComponent<PathfindingMovement>();
         state = States.WaitingForFood;
+        
     }
     private void Start()
     {
-        customerData.OnFoodReady += FoodReady;
+        GameManager.Instance.OnGameEnded += () =>
+        {
+            Debug.Log("test");
+            pathfindingMovement.RemoveTarget();
+        };
+        customerData.OnFoodReady += FoodReady;     
     }
     private void Update()
     {
         switch (state)
         {
             case States.WaitingForFood:
-
+                
+                if (randomTarget == null)
+                {
+                    randomTarget = PathfindingTarget.GetRandomTarget(moveDistance, transform.position);
+                    pathfindingMovement.SetTarget(randomTarget, () =>
+                    {
+                        FunctionTimer.Create(() => randomTarget = null, UnityEngine.Random.Range(idleTime, idleTime + 2));
+                    });
+                }
+                
                 break;
             case States.GettingFood:
                 //Debug.Log("Getting food");
@@ -46,12 +65,17 @@ public class CustomerMovement : MonoBehaviour
                 break;
             case States.RecievedFood:
                 //Debug.Log("Recieved food");
-                
-                pathfindingMovement.SetTarget(Target.TargetNames.EatFood, () =>
+                if (chair == null)
                 {
+                    chair = Chair.FindEmptyChair();
+                }
+                pathfindingMovement.SetTarget(chair.transform.position, () =>
+                {
+                    chair.AddCustomer(this);
                     state = States.EatingFood;
                     FunctionTimer.Create(() =>
                     {
+                        chair.RemoveCustomer();
                         state = States.LeavingStore;
                         OnDoneEating?.Invoke();
 
@@ -64,7 +88,7 @@ public class CustomerMovement : MonoBehaviour
             case States.LeavingStore:
                 //Debug.Log("left store");
                 
-                pathfindingMovement.SetTarget(Target.TargetNames.ExitStore, ()=> Destroy(this.gameObject));
+                pathfindingMovement.SetTarget(Target.TargetNames.ExitStore, LeaveStore);
                 break;
         }
     }
@@ -82,5 +106,10 @@ public class CustomerMovement : MonoBehaviour
     public void SetState(States state)
     {
         this.state = state;
+    }
+
+    private void LeaveStore()
+    {
+        Destroy(this.gameObject);
     }
 }

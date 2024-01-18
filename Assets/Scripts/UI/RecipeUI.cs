@@ -8,6 +8,8 @@ public class RecipeUI : MonoBehaviour
     [SerializeField] private Transform ingredientUIPrefab;
     [SerializeField] private Transform ingredientsContainer;
     [SerializeField] private Image foodImage;
+    [SerializeField] private Image progressBar;
+    private CustomerData customer;
     private FoodRecipeSO recipeSO;
     public void CreateRecipeUI(FoodRecipeSO recipe)
     {
@@ -20,12 +22,28 @@ public class RecipeUI : MonoBehaviour
             recipeSO = recipe;
         }
     }
-
+    private void Start()
+    {
+        customer = CustomerSpawner.Instance.GetCustomer(recipeSO);
+    }
+    private void Update()
+    {
+        UpdateProgress(customer.GetPatiencePercentage());
+    }
     public FoodRecipeSO GetRecipeSO()
     {
         return recipeSO;
     }
-            
+
+    private void UpdateProgress(float percent)
+    {
+        progressBar.fillAmount = percent;
+    }
+    
+    public void SetCustomer(CustomerData customer)
+    {
+        this.customer = customer;
+    }
 
 
 }

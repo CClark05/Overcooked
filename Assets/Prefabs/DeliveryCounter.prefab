@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 7155859241609721183}
   - component: {fileID: 7549944912369672339}
   - component: {fileID: 8668841814488665286}
-  - component: {fileID: 5849094581818467874}
   m_Layer: 6
   m_Name: DeliveryCounter
   m_TagString: Untagged
@@ -143,19 +142,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   addKitchenObject: {fileID: 0}
   plateObjectSO: {fileID: 11400000, guid: d159dea0c4f275c41925274c3382bdaa, type: 2}
---- !u!114 &5849094581818467874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6159191192487226740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13671944318050243917e60bb0c16a38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {fileID: 3385232049607760432}
 --- !u!1 &6636480313935181257
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,6 +151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3385232049607760432}
+  - component: {fileID: 3760931954974188081}
   m_Layer: 0
   m_Name: Customer Pickup
   m_TagString: Untagged
@@ -187,6 +174,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7554815210813961602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3760931954974188081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636480313935181257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13671944318050243917e60bb0c16a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 3385232049607760432}
+  targetName: 0
 --- !u!1 &8239492415063090968
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,8 +256,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00045001507, y: 0.123600006, z: 0}
-    m_Extent: {x: 0.92105, y: 0.7939, z: 0}
+    m_Center: {x: 0.005800009, y: 0.12600002, z: 0}
+    m_Extent: {x: 0.9182, y: 0.79980004, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

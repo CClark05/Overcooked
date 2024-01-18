@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public event EventHandler OnGamePaused;
     public event EventHandler OnGameResumed;
     public Action OnGameStarted;
+    public Action OnGameEnded;
     public enum States
     {
         WaitingToStart,
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     private float waitingToStartTimer = 1;
     private float countdownTimer = 3;
     private float gameTimerMax = 180;
-    private float gameTimer;
+    public float gameTimer { get; private set; }
 
     private bool isGamePaused = false;
 
@@ -84,6 +85,7 @@ public class GameManager : MonoBehaviour
                 {
                     state = States.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
+                    OnGameEnded?.Invoke();
                 }
                 break;
             case States.GameOver:
@@ -97,6 +99,10 @@ public class GameManager : MonoBehaviour
     public States GetState()
     {
         return state;
+    }
+    public float GetGameTimeMax()
+    {
+        return gameTimerMax;
     }
     public float GetGameTimerNormalized()
     {

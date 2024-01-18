@@ -1,4 +1,4 @@
-using SuperTiled2Unity.Editor;
+
 using SuperTiled2Unity;
 using System.Collections;
 using System.Collections.Generic;

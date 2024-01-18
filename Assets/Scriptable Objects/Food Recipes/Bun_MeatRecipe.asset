@@ -15,4 +15,4 @@ MonoBehaviour:
   kitchenObjects:
   - {fileID: 11400000, guid: 879ac544855cdc04ab7f66de7ca8c67d, type: 2}
   - {fileID: 11400000, guid: c55c0531c5845ea4da80d9889f6bd1de, type: 2}
-  sprite: {fileID: 21300000, guid: 4e63ab86b4adf9246bda5a36f9d9319b, type: 3}
+  sprite: {fileID: -1546098187911941683, guid: 7990d0f5be98c5546a3f6391ac64c4d0, type: 3}

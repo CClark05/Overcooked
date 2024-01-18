@@ -34,20 +34,20 @@ public class DeliveryManager : MonoBehaviour
         CustomerData.OnLostPatience += CustomerLeftStore;
         GameManager.Instance.OnGameStarted += SpawnRecipe;
     }
-    private float timer = 0;
+    private float timer = -0.5f;
     private void Update()
     {
         if (GameManager.Instance.GetState() == GameManager.States.Playing)
         {
-            timer += Time.deltaTime;
-            if (timer >= spawnRecipeTimer)
-            {
-                if (currentRecipes.Count < amountOfRecipesMax)
+                timer += Time.deltaTime;
+                if (timer >= spawnRecipeTimer)
                 {
-                    SpawnRecipe();
+                    if (currentRecipes.Count < amountOfRecipesMax)
+                    {
+                        SpawnRecipe();
+                    }
+                    timer = 0;
                 }
-                timer = 0;
-            }
         }
     }
     public bool DeliverRecipe(PlateKitchenObject plate)

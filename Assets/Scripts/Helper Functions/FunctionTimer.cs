@@ -7,8 +7,8 @@ public class FunctionTimer
 {
     public static FunctionTimer Create(Action func, float timer) 
     {
-        FunctionTimer functionTimer = new FunctionTimer(func, timer);
         GameObject newObject = new GameObject("FunctionTimer", typeof(BehaviourHook));
+        FunctionTimer functionTimer = new FunctionTimer(func, timer, newObject);
         newObject.GetComponent<BehaviourHook>().onUpdate = functionTimer.Update;
         return functionTimer;
     }
@@ -21,13 +21,16 @@ public class FunctionTimer
             onUpdate?.Invoke();
         }
     }
+
     private Action func;
     private float timer;
     private bool destroyTimer;
-    private FunctionTimer(Action func, float timer) 
+    private GameObject obj;
+    private FunctionTimer(Action func, float timer, GameObject obj) 
     {
         this.func = func;
         this.timer = timer;
+        this.obj = obj;
     }
 
     public void Update()
@@ -38,6 +41,7 @@ public class FunctionTimer
         {
             func?.Invoke();
             destroyTimer = true;
+            UnityEngine.Object.Destroy(obj);
         }
     }
 }

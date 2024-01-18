@@ -1,52 +1,10 @@
 fileFormatVersion: 2
-guid: a094f45de1bb2c848a910d49952dc99d
+guid: 8742ffae4ad611c44ac86db25adf4a79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1154851256020454382
-    second: Tables_0
-  - first:
-      213: -4026519276914565358
-    second: Tables_1
-  - first:
-      213: 6286849880924684786
-    second: Tables_2
-  - first:
-      213: 4357438209287675617
-    second: Tables_3
-  - first:
-      213: -8411801932005984568
-    second: Tables_4
-  - first:
-      213: 2053722442673013397
-    second: Tables_5
-  - first:
-      213: -6760248485457446290
-    second: Tables_6
-  - first:
-      213: -407572211455579873
-    second: Tables_7
-  - first:
-      213: 8524305636641115434
-    second: Tables_8
-  - first:
-      213: -1853358704240757897
-    second: Tables_9
-  - first:
-      213: 3844575377753506731
-    second: Tables_10
-  - first:
-      213: -8312236323084421282
-    second: Tables_11
-  - first:
-      213: 3918939148450810801
-    second: Tables_12
-  - first:
-      213: -4198980619346562477
-    second: Tables_13
-  - first:
-      213: 5767713541062913409
-    second: Tables_14
+      213: 2566906039580158383
+    second: ClockSprite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,148 +100,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tables_0
+      name: ClockSprite_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 157
-        width: 36
-        height: 30
+        x: 16
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 214bc7cb6e429ffe0800000000000000
-      internalID: -1154851256020454382
+      spriteID: fa9eaf4617b7f9320800000000000000
+      internalID: 2566906039580158383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_1
+      name: ClockSprite_1
       rect:
         serializedVersion: 2
-        x: 110
-        y: 157
-        width: 36
-        height: 30
+        x: 96
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21f9e321d0eee18c0800000000000000
-      internalID: -4026519276914565358
+      spriteID: 513195a10daf21440a7b4dcedc1cc315
+      internalID: -1291355452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_2
+      name: ClockSprite_2
       rect:
         serializedVersion: 2
-        x: 174
-        y: 156
-        width: 36
-        height: 30
+        x: 176
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f109b458a06f3750800000000000000
-      internalID: 6286849880924684786
+      spriteID: c191e8cd1ab86ba4085f59e770c26c49
+      internalID: -613106734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_3
+      name: ClockSprite_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 151
-        width: 40
-        height: 20
+        x: 256
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ee5e43f6fab87c30800000000000000
-      internalID: 4357438209287675617
+      spriteID: 29774d9981f9f0449bb98fda76938680
+      internalID: 739518000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_4
+      name: ClockSprite_4
       rect:
         serializedVersion: 2
-        x: 228
-        y: 171
-        width: 40
-        height: 20
+        x: 336
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c6b6d1e5b6434b80800000000000000
-      internalID: -8411801932005984568
+      spriteID: 9396a5cf952b6aa45920bd8e711a05db
+      internalID: -26831278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_8
+      name: ClockSprite_5
       rect:
         serializedVersion: 2
-        x: 277
-        y: 171
-        width: 39
-        height: 19
+        x: 416
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2d8ad410da6c4670800000000000000
-      internalID: 8524305636641115434
+      spriteID: e3b57dd55b16f6e419373ad02d497f12
+      internalID: -1262852868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_9
+      name: ClockSprite_6
       rect:
         serializedVersion: 2
-        x: 277
-        y: 151
-        width: 38
-        height: 20
+        x: 496
+        y: 18
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 773f958f31c8746e0800000000000000
-      internalID: -1853358704240757897
+      spriteID: 76e34ea6ec04b424b9116dd82d48813a
+      internalID: -288743120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockSprite_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 18
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7271c60672ae68040b2ae970bf3d2fa4
+      internalID: 919170967
       vertices: []
       indices: 
       edges: []
@@ -291,7 +270,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5c9364c484e72b54eb9a0d42b866eb50
+    spriteID: 57c98c56416ac95498dda2b4009fdf67
     internalID: 0
     vertices: []
     indices: 
@@ -299,21 +278,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tables_0: -1154851256020454382
-      Tables_1: -4026519276914565358
-      Tables_10: 3844575377753506731
-      Tables_11: -8312236323084421282
-      Tables_12: 3918939148450810801
-      Tables_13: -4198980619346562477
-      Tables_14: 5767713541062913409
-      Tables_2: 6286849880924684786
-      Tables_3: 4357438209287675617
-      Tables_4: -8411801932005984568
-      Tables_5: 2053722442673013397
-      Tables_6: -6760248485457446290
-      Tables_7: -407572211455579873
-      Tables_8: 8524305636641115434
-      Tables_9: -1853358704240757897
+      ClockSprite_0: 2566906039580158383
+      ClockSprite_1: -1291355452
+      ClockSprite_2: -613106734
+      ClockSprite_3: 739518000
+      ClockSprite_4: -26831278
+      ClockSprite_5: -1262852868
+      ClockSprite_6: -288743120
+      ClockSprite_7: 919170967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

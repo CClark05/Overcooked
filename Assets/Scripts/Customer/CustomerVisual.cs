@@ -6,10 +6,13 @@ public class CustomerVisual : MonoBehaviour
 {
     [SerializeField] private Transform foodParent;
     private GameObject foodVisual;
+    [SerializeField] private Sprite[] moodSprites;
+    [SerializeField] private SpriteRenderer moodSr;
     private void Start()
     {
         GetComponent<CustomerMovement>().OnRecievedFood += GotFood;
         GetComponent<CustomerMovement>().OnDoneEating += DoneEating;
+        CustomerData.OnMoodChanged += UpdateMoodSprite;
     }
     private void GotFood(FoodRecipeSO recipe)
     {
@@ -18,10 +21,34 @@ public class CustomerVisual : MonoBehaviour
         foodVisual.transform.localPosition = Vector3.zero;
         foodVisual.AddComponent<SpriteRenderer>();
         foodVisual.GetComponent<SpriteRenderer>().sprite = recipe.sprite;
+        Destroy(moodSr.gameObject);
     }
     private void DoneEating()
     {
-        Debug.Log("test");
         Destroy(foodVisual);
+    }
+
+    private void UpdateMoodSprite()
+    {
+        CustomerData.Moods mood = GetComponent<CustomerData>().GetMood();
+        switch (mood)
+        {
+            case CustomerData.Moods.Content:
+                moodSr.sprite = moodSprites[0];
+                break;
+            case CustomerData.Moods.Impatient:
+                moodSr.sprite = moodSprites[1];
+                break;
+            case CustomerData.Moods.Frustrated:
+                moodSr.sprite = moodSprites[2];
+                break;
+            case CustomerData.Moods.Angry:
+                moodSr.sprite = moodSprites[3];
+                break;
+        }
+    }
+    public void OnDestroy()
+    {
+        CustomerData.OnMoodChanged -= UpdateMoodSprite;
     }
 }
