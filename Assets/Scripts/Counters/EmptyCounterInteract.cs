@@ -36,6 +36,16 @@ public class EmptyCounterInteract : BaseCounter
                     {
                         player.GetKitchenObject().DestroySelf();
                     }
+                    if(PlateKitchenObject.IsPlate(player.GetKitchenObject(), out PlateKitchenObject playerPlate))
+                    {
+                        List<KitchenObjectSO> kitchenObjects = playerPlate.GetIngredientList();
+                        if (kitchenObjects.Count == 0) return;
+                        if (plate.TryAddIngredients(kitchenObjects))
+                        {
+                            playerPlate.ClearPlate();
+                        }
+
+                    }
                 }
             }
         }

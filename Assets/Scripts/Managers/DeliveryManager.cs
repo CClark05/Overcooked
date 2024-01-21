@@ -111,4 +111,9 @@ public class DeliveryManager : MonoBehaviour
     {
         return amountOfRecipesDelivered;
     }
+
+    public int GetRecipesMax()
+    {
+        return amountOfRecipesMax;
+    }
 }

@@ -100,7 +100,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ClockSprite_0
+      name: ClockSprite_Red
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514dd7b87e32a6d4cbdf14757eaa29fa
+      internalID: -1440839491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockSprite_Orange
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f522418a7aaa95478926c5d5826a4af
+      internalID: 1742216722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockSprite_Yellow
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d9e6d087627be4e8339cd26d548a22
+      internalID: -465764112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockSprite_Green
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a7d3af1a640fa4fb6004fd4cb28a2c
+      internalID: 1064043505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockSprite_4
       rect:
         serializedVersion: 2
         x: 16
@@ -112,157 +196,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa9eaf4617b7f9320800000000000000
-      internalID: 2566906039580158383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 513195a10daf21440a7b4dcedc1cc315
-      internalID: -1291355452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_2
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c191e8cd1ab86ba4085f59e770c26c49
-      internalID: -613106734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_3
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29774d9981f9f0449bb98fda76938680
-      internalID: 739518000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_4
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9396a5cf952b6aa45920bd8e711a05db
+      spriteID: 22c25686a0d017242ab3d7701a8a66ec
       internalID: -26831278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_5
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3b57dd55b16f6e419373ad02d497f12
-      internalID: -1262852868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_6
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76e34ea6ec04b424b9116dd82d48813a
-      internalID: -288743120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ClockSprite_7
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 18
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7271c60672ae68040b2ae970bf3d2fa4
-      internalID: 919170967
       vertices: []
       indices: 
       edges: []
@@ -278,14 +215,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClockSprite_0: 2566906039580158383
-      ClockSprite_1: -1291355452
-      ClockSprite_2: -613106734
-      ClockSprite_3: 739518000
       ClockSprite_4: -26831278
-      ClockSprite_5: -1262852868
-      ClockSprite_6: -288743120
-      ClockSprite_7: 919170967
+      ClockSprite_5: 245552860
+      ClockSprite_6: -798939337
+      ClockSprite_Green: 1064043505
+      ClockSprite_Orange: 1742216722
+      ClockSprite_Red: -1440839491
+      ClockSprite_Yellow: -465764112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

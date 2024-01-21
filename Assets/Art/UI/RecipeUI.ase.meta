@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: RecipeUI
     originalName: 
-    pivot: {x: 0.375, y: -0.27419356}
+    pivot: {x: 0.375, y: -0.17910446}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -131,7 +131,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 64
-      height: 62
+      height: 67
     spriteID: 4ac5497753679f6439fa2c3352170df1
     spriteBone: []
     spriteOutline: []
@@ -154,9 +154,9 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 26
-        y: 17
+        y: 12
         width: 64
-        height: 62
+        height: 67
       spriteId: 4ac5497753679f6439fa2c3352170df1
     linkedCells: []
     parentIndex: -1

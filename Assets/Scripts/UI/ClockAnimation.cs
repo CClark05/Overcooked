@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ClockAnimation : MonoBehaviour
 {
-    private string spinAnimation = "Clock_Spin";
+    private string spinAnimation = "ClockSpin";
     [SerializeField] private Animator animator;
     private void Start()
     {

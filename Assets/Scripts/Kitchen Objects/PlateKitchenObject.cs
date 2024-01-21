@@ -34,6 +34,31 @@ public class PlateKitchenObject : KitchenObject
         }); 
         return true;
     }
+    public bool TryAddIngredients(List<KitchenObjectSO> kitchenObjectSOList)
+    {
+        foreach(KitchenObjectSO kitchenObjectSO in kitchenObjectSOList)
+        {
+            if (isDirty) return false;
+            if (ingredientList.Contains(kitchenObjectSO) || !kitchenObjectSO.isPreppedIngredient)
+            {
+                return false;
+            }
+            ingredientList.Add(kitchenObjectSO);
+        }
+        OnIngredientAdded?.Invoke(this, new OnIngredientAddedEventArgs
+        {
+            kitchenObjectSOList = ingredientList
+        });
+        return true;
+    }
+    public void ClearPlate()
+    {
+        ingredientList.Clear();
+        OnIngredientAdded?.Invoke(this, new OnIngredientAddedEventArgs
+        {
+            kitchenObjectSOList = ingredientList
+        });
+    }
     public static bool IsPlate(KitchenObject kitchenObject, out PlateKitchenObject plateKitchenObject)
     {
         if(kitchenObject is PlateKitchenObject)

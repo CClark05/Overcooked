@@ -21,7 +21,7 @@ public class CustomerVisual : MonoBehaviour
         foodVisual.transform.localPosition = Vector3.zero;
         foodVisual.AddComponent<SpriteRenderer>();
         foodVisual.GetComponent<SpriteRenderer>().sprite = recipe.sprite;
-        Destroy(moodSr.gameObject);
+        moodSr.gameObject.SetActive(false);
     }
     private void DoneEating()
     {
