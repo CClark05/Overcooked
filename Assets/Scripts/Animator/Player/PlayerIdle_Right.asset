@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5147bf5268303b47806234971e3b3c2, type: 3}
+  m_Name: PlayerIdle_Right
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -6556743904625465184, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
+  - {fileID: 7777069500747275281, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
+  - {fileID: -6556743904625465184, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}

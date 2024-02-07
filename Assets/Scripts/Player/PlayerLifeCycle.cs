@@ -22,7 +22,6 @@ public class PlayerLifeCycle: MonoBehaviour
     private void SpawnPlayer()
     {
         isDead = false;
-        playerAnimation.PlayAnimation(PlayerAnimation.Animations.PlayerIdle);
         transform.position = spawnPoint.position;
         GetComponent<PlayerMovement>().UnFreezeInput();
     }
@@ -51,6 +50,6 @@ public class PlayerLifeCycle: MonoBehaviour
             
         }
         GetComponent<PlayerMovement>().FreezeInput(); 
-        playerAnimation.PlayAnimation(PlayerAnimation.Animations.PlayerDeath, SpawnPlayer);
+        //playerAnimation.PlayAnimation(PlayerAnimation.Animations.PlayerDeath, SpawnPlayer);
     }
 }

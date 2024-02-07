@@ -3,46 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimation : MonoBehaviour
+public class PlayerAnimation : SpriteAnimator
 {
-    public enum Animations
-    {
-        PlayerIdle,
-        PlayerDeath,
-    }
-    private Animations currentAnimation;
-    private Animator animator;
-    private List<(Action, Animations)> animationEvents = new List<(Action, Animations)>();
+    private PlayerMovement playerMovement;
     private void Awake()
     {
-        animator = GetComponent<Animator>();
-        currentAnimation = Animations.PlayerIdle;
+        base.Init(5, spriteAnimations[0]);
+        playerMovement = GetComponent<PlayerMovement>();
     }
-
-    public void PlayAnimation(Animations animation, Action OnAnimationDone)
+    new private void Update()
     {
-        if (animation == currentAnimation) return;
-        animator.Play(animation.ToString());
-        currentAnimation = animation;
-        var tuple = (OnAnimationDone, animation);
-        if (animationEvents.Contains(tuple)) return;
-        animationEvents.Add((OnAnimationDone, animation));
-    }
-
-    public void PlayAnimation(Animations animation)
-    {
-        if (animation == currentAnimation) return;
-        animator.Play(animation.ToString());
-        currentAnimation = animation;
-    }
-
-    public void AnimationDone(Animations animation)
-    {
-        foreach((Action action, Animations actionAnimation) in animationEvents)
+        base.Update();
+        if((Vector2)playerMovement.GetCurrentDirection() == Vector2.zero)
         {
-            if(actionAnimation == animation)
+            Vector2 lastDirection = playerMovement.GetLastUpdatedDirection();
+            if(lastDirection.x > 0)
             {
-                action?.Invoke();
+                SetAnimation(spriteAnimations[2]);
+            }else if(lastDirection.x < 0)
+            {
+                SetAnimation(spriteAnimations[3]);
+            }else if(lastDirection.y > 0)
+            {
+                SetAnimation(spriteAnimations[1]);
+            }
+            else
+            {
+                SetAnimation(spriteAnimations[0]);
             }
         }
     }

@@ -25,7 +25,7 @@ public class DeliveryManagerUI : MonoBehaviour
         deliveryManager.OnRecipeAdded += DeliveryManager_OnRecipeAdded;
         deliveryManager.OnRecipeRemoved += DeliveryManager_OnRecipeRemoved;
     }
-
+    /**
     private void DeliveryManager_OnRecipeRemoved(object sender, DeliveryManager.OnRecipesRemovedEventArgs e)
     {
         List<int> moveIndexs = new List<int>();
@@ -46,6 +46,41 @@ public class DeliveryManagerUI : MonoBehaviour
             }
         }
         
+    }
+    */
+    private void DeliveryManager_OnRecipeRemoved(object sender, DeliveryManager.OnRecipesRemovedEventArgs e)
+    {
+        int removeIndex = recipeUIList.FindIndex(ui => ui.GetRecipeSO() == e.recipeSO);
+        if (removeIndex != -1)
+        {
+            recipeUIList[removeIndex].RemoveRecipe();
+            recipeUIList.RemoveAt(removeIndex);
+
+            layoutGroup.SetOccupied(removeIndex, out List<int> moveIndexs);
+
+            foreach (int index in moveIndexs)
+            {
+                // Updated logic to handle the new position calculation correctly
+                int newIndex = index - 1; // Calculate the new index after removal
+                if (newIndex >= 0 && newIndex < recipeUIList.Count)
+                {
+                    // Animate to the new position
+                    Vector2 newPosition = layoutGroup.GetPosition(newIndex);
+                    LeanTween.moveLocalX(recipeUIList[newIndex].gameObject, newPosition.x, 0.5f);
+                }
+            }
+
+            // Update the occupied status of remaining elements in layoutGroup
+            UpdateLayoutGroupOccupiedStatus();
+        }
+    }
+
+    private void UpdateLayoutGroupOccupiedStatus()
+    {
+        for (int i = 0; i < recipeUIList.Count; i++)
+        {
+            layoutGroup.SetOccupied(i); // Set occupied status based on whether there is a recipe UI at this index
+        }
     }
 
     private void DeliveryManager_OnRecipeAdded(object sender, DeliveryManager.OnRecipesUpdatedEventArgs e)

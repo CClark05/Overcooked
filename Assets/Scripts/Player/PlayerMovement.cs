@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isDashing { get; private set; }
     private Vector3 direction;
     private Rigidbody2D rb;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

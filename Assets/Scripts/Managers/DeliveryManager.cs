@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using CameraShake;
 
 public class DeliveryManager : MonoBehaviour
 {
@@ -69,10 +70,12 @@ public class DeliveryManager : MonoBehaviour
                 return true;
             }
         }
+        CameraShaker.Presets.ShortShake2D();
         return false;
     }
     private void CustomerLeftStore(FoodRecipeSO recipe)
     {
+        RedFlash.i.Flash();
         foreach(FoodRecipeSO currentRecipe in currentRecipes)
         {
             if(currentRecipe == recipe)
