@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5147bf5268303b47806234971e3b3c2, type: 3}
-  m_Name: PlayerIdle_Left
+  m_Name: PlayerDash_Up
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 2448025094493848671, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
-  - {fileID: 2396946151932895502, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
-  - {fileID: 2448025094493848671, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
-  frameRate: 5
-  looping: 1
+  - {fileID: -2151538202383693490, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: -4328302359342718368, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: -4328302359342718368, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: -4328302359342718368, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  frameRate: 7
+  looping: 0

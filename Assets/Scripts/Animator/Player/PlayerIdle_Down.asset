@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PlayerIdle_Down
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 600787656912180804, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
-  - {fileID: -6573777416417220690, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
-  - {fileID: 600787656912180804, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
+  - {fileID: 2446344563168506186, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: -2247419775575526296, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: 2446344563168506186, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  frameRate: 5
+  looping: 1

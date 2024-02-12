@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private float dashCooldownTimer = 0;
     
     public bool isDashing { get; private set; }
+    public Action<Vector2> OnDash;
     private Vector3 direction;
     private Rigidbody2D rb;
 
@@ -43,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSpeed = dashSpeed;
             isDashing = true;
+            OnDash?.Invoke(GetCurrentDirection());   
             dashCooldownTimer = dashCooldown;
         }
     }

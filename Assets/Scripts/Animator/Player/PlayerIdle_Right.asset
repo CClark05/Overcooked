@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: PlayerIdle_Right
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: -6556743904625465184, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
-  - {fileID: 7777069500747275281, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
-  - {fileID: -6556743904625465184, guid: 7153ddaf021dbe841abeb7f0d38cb064, type: 3}
+  - {fileID: -4115798956577463999, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: 4700480727098591591, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  - {fileID: -4115798956577463999, guid: 0e26de54b7e82f840be98bf21ecf7d78, type: 3}
+  frameRate: 5
+  looping: 1
