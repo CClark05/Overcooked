@@ -5,31 +5,28 @@ using UnityEngine;
 
 public class PlayerLifeCycle: MonoBehaviour
 {
-    public Action OnDeath;
+    public Action<Vector2> OnDeath;
     [SerializeField] private Transform spawnPoint;
-    private PlayerAnimation playerAnimation;
     public bool isDead  { get; private set; }
-    private void Awake()
-    {
-        playerAnimation = GetComponent<PlayerAnimation>();
-    }
+
     private void Start()
     {
         Hole.OnTrigger += Die;
         SpawnPlayer();
+        GetComponent<PlayerAnimation>().OnDeathAnimationDone += SpawnPlayer;
     }
 
     private void SpawnPlayer()
     {
-        isDead = false;
         transform.position = spawnPoint.position;
+        transform.localScale = new Vector3(1, 1, 1);
         GetComponent<PlayerMovement>().UnFreezeInput();
+        isDead = false;
     }
 
     private void Die(Vector2 holePosition)
     {
         if (GetComponent<PlayerMovement>().isDashing) return;
-        OnDeath?.Invoke();
         isDead = true;
         if (PlayerInteraction.Instance.HasKitchenObject())
         {
@@ -49,7 +46,7 @@ public class PlayerLifeCycle: MonoBehaviour
             PlayerInteraction.Instance.GetKitchenObject().SetParent(floor);
             
         }
-        GetComponent<PlayerMovement>().FreezeInput(); 
-        //playerAnimation.PlayAnimation(PlayerAnimation.Animations.PlayerDeath, SpawnPlayer);
+        GetComponent<PlayerMovement>().FreezeInput();
+        OnDeath?.Invoke(GetComponent<PlayerMovement>().GetCurrentDirection());
     }
 }

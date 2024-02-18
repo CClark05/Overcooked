@@ -7,4 +7,5 @@ public class SpriteAnimation : ScriptableObject
     public Sprite[] sprites;
     public float frameRate;
     public bool looping;
+    public bool locked;
 }

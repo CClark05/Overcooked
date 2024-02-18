@@ -42,7 +42,7 @@ public class PlayerInteraction : MonoBehaviour, IKitchenObjectParent
         userInput = UserInput.Instance;
         userInput.onInteractPressed += UserInput_onInteractPressed;
         userInput.onCutPressed += UserInput_onCutPressed;
-        GetComponent<PlayerLifeCycle>().OnDeath += () =>
+        GetComponent<PlayerLifeCycle>().OnDeath += (Vector2 direction) =>
         {
             selectedCounter = null;
             OnSelectedCounterChanged?.Invoke(this, new onSelectedCounterChangedEventArgs

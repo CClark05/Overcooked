@@ -14,6 +14,7 @@ public class Hole : MonoBehaviour
         }
 
     }
+    /**
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out PlayerLifeCycle player))
@@ -21,4 +22,5 @@ public class Hole : MonoBehaviour
             OnTrigger?.Invoke(transform.position);
         }
     }
+    */
 }

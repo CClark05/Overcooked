@@ -30,6 +30,11 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         UserInput.Instance.onDashPressed += UserInput_onDashPressed;
+        GetComponent<PlayerLifeCycle>().OnDeath += (Vector2 direction) =>
+        {
+            direction = Vector3.zero;
+            lastUpdatedDirection = Vector3.zero;
+        };
     }
     private void Update()
     {
@@ -40,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void UserInput_onDashPressed(object sender, System.EventArgs e)
     {
-        if (dashCooldownTimer == 0)
+        if (dashCooldownTimer == 0 && dashSpeed != 0)
         {
             moveSpeed = dashSpeed;
             isDashing = true;
@@ -56,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void TakeInput()
     {
-        if (isDashing) return;
+        if (isDashing || GetComponent<PlayerLifeCycle>().isDead) return;
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
         direction.Normalize();
@@ -92,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
         }
         return lastUpdatedDirection;
     }
+
     public Vector3 GetCurrentDirection()
     {
         return direction;
