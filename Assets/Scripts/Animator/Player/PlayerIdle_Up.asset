@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: PlayerIdle_Up
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 738888433, guid: ba9cdf9e32b962640a23238b6582c78f, type: 3}
-  - {fileID: -1143025542, guid: ba9cdf9e32b962640a23238b6582c78f, type: 3}
-  - {fileID: 738888433, guid: ba9cdf9e32b962640a23238b6582c78f, type: 3}
-  frameRate: 5
+  - {fileID: 3092793298536187817, guid: c1326a0970af8874eabd45a923535100, type: 3}
+  - {fileID: -5707786654608497818, guid: c1326a0970af8874eabd45a923535100, type: 3}
+  frameRate: 1.5
   looping: 1
   locked: 0

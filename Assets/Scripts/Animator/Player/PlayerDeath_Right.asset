@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerDeath_Right
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 3286906832049929247, guid: ba9cdf9e32b962640a23238b6582c78f, type: 3}
+  - {fileID: 6624437330010358115, guid: 9617f961579962546951260be33beaba, type: 3}
   frameRate: 7
   looping: 1
   locked: 1

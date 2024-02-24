@@ -23,7 +23,16 @@ public class PlayerAnimation : SpriteAnimator
     new private void Update()
     {
         base.Update();
-        IdleAnimation();
+        if (playerMovement.isDashing) return;
+        if((Vector2)playerMovement.GetCurrentDirection() == Vector2.zero)
+        {
+            IdleAnimation();
+        }
+        else
+        {
+            RunAnimation();
+        }
+
     }
     private void DashAnimation(Vector2 direction)
     {
@@ -42,6 +51,26 @@ public class PlayerAnimation : SpriteAnimator
         else
         {
             SetAnimation(spriteAnimations[7]);
+        }
+    }
+    private void RunAnimation()
+    {
+        Vector2 direction = playerMovement.GetCurrentDirection();
+        if (direction.x > 0)
+        {
+            SetAnimation(spriteAnimations[14]);
+        }
+        else if (direction.x < 0)
+        {
+            SetAnimation(spriteAnimations[15]);
+        }
+        else if (direction.y > 0)
+        {
+            SetAnimation(spriteAnimations[13]);
+        }
+        else if(direction.y < 0)
+        {
+            SetAnimation(spriteAnimations[12]);
         }
     }
     private void DeathAnimation(Vector2 direction)
@@ -71,8 +100,7 @@ public class PlayerAnimation : SpriteAnimator
     
     private void IdleAnimation()
     {
-        if ((Vector2)playerMovement.GetCurrentDirection() == Vector2.zero)
-        {
+
             Vector2 lastDirection = playerMovement.GetLastUpdatedDirection();
             if (lastDirection.x > 0)
             {
@@ -90,6 +118,7 @@ public class PlayerAnimation : SpriteAnimator
             {
                 SetAnimation(spriteAnimations[0]);
             }
-        }
+
     }
+
 }

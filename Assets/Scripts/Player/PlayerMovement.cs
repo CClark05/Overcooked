@@ -6,13 +6,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     [SerializeField] private float moveSpeed;
     private float _moveSpeed;
     [SerializeField] private float dashSpeed;
     private float _dashSpeed;
     private float dashTimer = 0.23f;
     private float _dashTimer;
-    private float dashCooldown = 0.5f;
+    private float dashCooldown = 0.8f;
     private float dashCooldownTimer = 0;
     
     public bool isDashing { get; private set; }
@@ -26,14 +27,16 @@ public class PlayerMovement : MonoBehaviour
         _moveSpeed = moveSpeed;
         _dashSpeed = dashSpeed;
         _dashTimer = dashTimer;
+
     }
     private void Start()
     {
         UserInput.Instance.onDashPressed += UserInput_onDashPressed;
         GetComponent<PlayerLifeCycle>().OnDeath += (Vector2 direction) =>
         {
-            direction = Vector3.zero;
+            this.direction = Vector3.zero;
             lastUpdatedDirection = Vector3.zero;
+
         };
     }
     private void Update()
@@ -41,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
         if (GameManager.Instance.GetState() != GameManager.States.Playing) return;
         TakeInput();
         HandleDash();
+
+        
     }
 
     private void UserInput_onDashPressed(object sender, System.EventArgs e)
@@ -112,4 +117,5 @@ public class PlayerMovement : MonoBehaviour
         moveSpeed = _moveSpeed;
         dashSpeed = _dashSpeed;
     }
+
 }

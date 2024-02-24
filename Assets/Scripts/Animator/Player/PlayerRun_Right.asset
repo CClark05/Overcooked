@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5147bf5268303b47806234971e3b3c2, type: 3}
+  m_Name: PlayerRun_Right
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 9037764330313910182, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: 3500024162630020651, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: -6816605152642468798, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: 146098786416678875, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: 151169761, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: -1281502084, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: -689585562, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  - {fileID: 1577409791, guid: 46db75869b48a7a4097b4a203c43efaa, type: 3}
+  frameRate: 10
+  looping: 1
+  locked: 0
