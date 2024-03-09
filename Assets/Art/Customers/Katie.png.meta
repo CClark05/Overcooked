@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c18e0a3d174126847971c45bc2d1d881
+guid: a9f3932fbbfebee4bb1e21db09080cb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2747304390687538181
-    second: RecipeUI_0
+      213: 2556738380518391432
+    second: Katie_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,64 +100,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RecipeUI_0
+      name: Katie_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 34
-        width: 64
-        height: 33
+        x: 4
+        y: 1
+        width: 11
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50c3dc899c2602620800000000000000
-      internalID: 2747304390687538181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecipeUI_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 72
-        width: 58
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e23effa2f8947bc43b7dc9f6fa173672
-      internalID: 1886416401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecipeUI_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 12
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c41725c00fc60e4484dffbe6958d89f
-      internalID: -62635786
+      spriteID: 88ef76ac20c5b7320800000000000000
+      internalID: 2556738380518391432
       vertices: []
       indices: 
       edges: []
@@ -165,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a06bc8f606e53684d92cb176a7c20294
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,9 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RecipeUI_0: 2747304390687538181
-      RecipeUI_1: 1886416401
-      RecipeUI_2: -62635786
+      Katie_0: 2556738380518391432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

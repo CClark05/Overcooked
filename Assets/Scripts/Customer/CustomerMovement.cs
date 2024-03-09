@@ -35,7 +35,6 @@ public class CustomerMovement : MonoBehaviour
     {
         GameManager.Instance.OnGameEnded += () =>
         {
-            Debug.Log("test");
             pathfindingMovement.RemoveTarget();
         };
         customerData.OnFoodReady += FoodReady;     

@@ -200,7 +200,7 @@ SpriteRenderer:
   m_SortingLayerID: 1518739733
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5033263306926724626, guid: 54f22fd95c017ad4fbd02a4056cdad28, type: 3}
+  m_Sprite: {fileID: 2556738380518391432, guid: a9f3932fbbfebee4bb1e21db09080cb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -226,6 +226,7 @@ MonoBehaviour:
   mood: 0
   recipe: {fileID: 0}
   patienceLevel: 0
+  hasUI: 0
 --- !u!114 &7700283793600312023
 MonoBehaviour:
   m_ObjectHideFlags: 0

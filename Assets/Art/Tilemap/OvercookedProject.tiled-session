@@ -26,15 +26,15 @@
         },
         "Rules/AutotileRules.tmx": {
             "expandedObjectLayers": [
-                9,
+                8,
                 7,
-                8
+                9
             ],
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 589.25,
-                "y": 399.75
+                "x": 588.25,
+                "y": 398.5
             }
         },
         "Rules/AutotileRules.tmx#AutoMap Rules": {
@@ -45,33 +45,33 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 639.75,
-                "y": 399.75
+                "x": 638.25,
+                "y": 284
             }
         },
         "Rules/Refined_RefinedRules.tmx": {
             "scale": 2.315625,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 283.72469635627533,
-                "y": 160
+                "x": 282.6450742240216,
+                "y": 159.3522267206478
             }
         },
         "Rules/TileToObject.tmx": {
             "expandedObjectLayers": [
-                2,
+                8,
+                5,
+                3,
                 6,
                 7,
                 4,
-                5,
-                3,
-                8
+                2
             ],
             "scale": 2,
-            "selectedLayer": 1,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 215.25,
-                "y": 159.5
+                "x": 214.75,
+                "y": 158.5
             }
         },
         "Rules/TileToObject.tmx#AutoMap Rules": {
@@ -79,21 +79,21 @@
         },
         "Tilemap.tmx": {
             "expandedObjectLayers": [
-                13,
+                11,
+                5,
+                6,
                 14,
+                10,
+                7,
                 12,
                 9,
-                6,
-                7,
-                5,
-                10,
-                11
+                13
             ],
             "scale": 3,
-            "selectedLayer": 1,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 159.5,
-                "y": 125.66666666666666
+                "x": 147.16666666666666,
+                "y": 77.33333333333333
             }
         }
     },

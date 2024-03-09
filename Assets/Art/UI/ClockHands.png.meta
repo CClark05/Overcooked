@@ -1,10 +1,46 @@
 fileFormatVersion: 2
-guid: 16797fb5e6c954b42b2a2b5575abe706
+guid: 164656d2c5c2b9842bb11d967c438525
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -6705640628016612089
     second: ClockHands_0
+  - first:
+      213: -2197437604305834990
+    second: ClockHands_1
+  - first:
+      213: 4221051731643666521
+    second: ClockHands_2
+  - first:
+      213: 2649336249126436745
+    second: ClockHands_3
+  - first:
+      213: 7480403122922943709
+    second: ClockHands_4
+  - first:
+      213: 738660937650046607
+    second: ClockHands_5
+  - first:
+      213: 103100224334271187
+    second: ClockHands_6
+  - first:
+      213: -6538349715267108381
+    second: ClockHands_7
+  - first:
+      213: 1178674994589326880
+    second: ClockHands_8
+  - first:
+      213: -575877638133637139
+    second: ClockHands_9
+  - first:
+      213: -8259938642819955483
+    second: ClockHands_10
+  - first:
+      213: 7788006292061999385
+    second: ClockHands_11
+  - first:
+      213: -4536911541472060949
+    second: ClockHands_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -103,19 +139,19 @@ TextureImporter:
       name: ClockHands_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 18
-        width: 16
-        height: 16
+        x: 0
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1208144a293bc5e4d9ffce7502673d07
-      internalID: 952438518
+      spriteID: 70d74a77067c0f2a0800000000000000
+      internalID: -6705640628016612089
       vertices: []
       indices: 
       edges: []
@@ -124,19 +160,19 @@ TextureImporter:
       name: ClockHands_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 18
-        width: 16
-        height: 16
+        x: 9
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 86d2bd547d87f0c408a171eab4f40c2f
-      internalID: -199720900
+      spriteID: 21ce34334222181e0800000000000000
+      internalID: -2197437604305834990
       vertices: []
       indices: 
       edges: []
@@ -145,19 +181,19 @@ TextureImporter:
       name: ClockHands_2
       rect:
         serializedVersion: 2
-        x: 208
-        y: 18
-        width: 16
-        height: 16
+        x: 18
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 390b7b8cf44a6544bbc5ee71e7f35e96
-      internalID: -1146487943
+      spriteID: 9501b239f20349a30800000000000000
+      internalID: 4221051731643666521
       vertices: []
       indices: 
       edges: []
@@ -166,19 +202,19 @@ TextureImporter:
       name: ClockHands_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 18
-        width: 16
-        height: 16
+        x: 27
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 70482f5c0665ed941bf44171033b60f4
-      internalID: 1924355526
+      spriteID: 98f3fb3284554c420800000000000000
+      internalID: 2649336249126436745
       vertices: []
       indices: 
       edges: []
@@ -187,19 +223,19 @@ TextureImporter:
       name: ClockHands_4
       rect:
         serializedVersion: 2
-        x: 368
-        y: 18
-        width: 16
-        height: 16
+        x: 36
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9ace561074c91da49a23d98856ef61f5
-      internalID: -386308030
+      spriteID: dd47b86e10bbfc760800000000000000
+      internalID: 7480403122922943709
       vertices: []
       indices: 
       edges: []
@@ -208,19 +244,19 @@ TextureImporter:
       name: ClockHands_5
       rect:
         serializedVersion: 2
-        x: 448
-        y: 18
-        width: 16
-        height: 16
+        x: 45
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a577add43b640694281272ea6e126952
-      internalID: 388180101
+      spriteID: f86861e8530404a00800000000000000
+      internalID: 738660937650046607
       vertices: []
       indices: 
       edges: []
@@ -229,19 +265,19 @@ TextureImporter:
       name: ClockHands_6
       rect:
         serializedVersion: 2
-        x: 528
-        y: 18
-        width: 16
-        height: 16
+        x: 54
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 987b868bec7249a42907ab5a4841bf9f
-      internalID: -1014396275
+      spriteID: 3d215b79b194e6100800000000000000
+      internalID: 103100224334271187
       vertices: []
       indices: 
       edges: []
@@ -250,10 +286,136 @@ TextureImporter:
       name: ClockHands_7
       rect:
         serializedVersion: 2
-        x: 608
-        y: 18
-        width: 16
-        height: 16
+        x: 63
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e14a3c539d1345a0800000000000000
+      internalID: -6538349715267108381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ed126a9ae7b5010800000000000000
+      internalID: 1178674994589326880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def14f8d6521208f0800000000000000
+      internalID: -575877638133637139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4c130419dce5d80800000000000000
+      internalID: -8259938642819955483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911dcd2c57e841c60800000000000000
+      internalID: 7788006292061999385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be910399df6a901c0800000000000000
+      internalID: -4536911541472060949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,8 +423,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fb75e0d9c749114299b99e53f3107b8
-      internalID: 275709240
+      spriteID: 5f02ce895129d9e42aea05db184e60bd
+      internalID: 276533055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026ea1b05cd928d40bba2e814a96b80a
+      internalID: -623691015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626d250c1ce9a40479ff0dc88f4ee116
+      internalID: 1343810588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb73e10b2466db8469c4a24e8de22689
+      internalID: -1069915621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f693c7bcac784b8debd1e48fb4f18
+      internalID: 2086599109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636a8d6814d33504699bf52a7d11f198
+      internalID: -1610848010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3227a364012c8de45af0cc9a328d6f6a
+      internalID: 1085948885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e0abf874a309b47957085cac1125ea
+      internalID: 271298859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2ce4c4d6f41104781dc95e5d69c317
+      internalID: 261736594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4242a278a4855344bf10db26abd1cbe
+      internalID: 2035370361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockHands_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d07b6fb1768ef64da4132844f514e13
+      internalID: 1900836743
       vertices: []
       indices: 
       edges: []
@@ -270,7 +642,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8ab0c505a9fa94148beb40eb688390af
+    spriteID: 43d1d2f01d7563d45a8314f66aece5c6
     internalID: 0
     vertices: []
     indices: 
@@ -278,14 +650,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClockHands_0: 952438518
-      ClockHands_1: -199720900
-      ClockHands_2: -1146487943
-      ClockHands_3: 1924355526
-      ClockHands_4: -386308030
-      ClockHands_5: 388180101
-      ClockHands_6: -1014396275
-      ClockHands_7: 275709240
+      ClockHands_0: -6705640628016612089
+      ClockHands_1: -2197437604305834990
+      ClockHands_10: -8259938642819955483
+      ClockHands_11: 7788006292061999385
+      ClockHands_12: -4536911541472060949
+      ClockHands_13: 276533055
+      ClockHands_14: -623691015
+      ClockHands_15: 1343810588
+      ClockHands_16: -1069915621
+      ClockHands_17: 2086599109
+      ClockHands_18: -1610848010
+      ClockHands_19: 1085948885
+      ClockHands_2: 4221051731643666521
+      ClockHands_20: 271298859
+      ClockHands_21: 261736594
+      ClockHands_22: 2035370361
+      ClockHands_23: 1900836743
+      ClockHands_3: 2649336249126436745
+      ClockHands_4: 7480403122922943709
+      ClockHands_5: 738660937650046607
+      ClockHands_6: 103100224334271187
+      ClockHands_7: -6538349715267108381
+      ClockHands_8: 1178674994589326880
+      ClockHands_9: -575877638133637139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

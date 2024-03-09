@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 0}
+  isBottom: 1
   plateParent: {fileID: 4867885979514974293}
 --- !u!1 &8513548800763571946
 GameObject:

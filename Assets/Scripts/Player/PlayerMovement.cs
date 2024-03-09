@@ -4,9 +4,8 @@ using System.Collections.Generic;
 using System.Xml;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
-{
-
+public class PlayerMovement : MonoBehaviour, IMoves
+{ 
     [SerializeField] private float moveSpeed;
     private float _moveSpeed;
     [SerializeField] private float dashSpeed;
@@ -15,8 +14,10 @@ public class PlayerMovement : MonoBehaviour
     private float _dashTimer;
     private float dashCooldown = 0.8f;
     private float dashCooldownTimer = 0;
-    
     public bool isDashing { get; private set; }
+
+    public Vector2 Direction => direction;
+
     public Action<Vector2> OnDash;
     private Vector3 direction;
     private Rigidbody2D rb;
@@ -94,6 +95,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private Vector3 lastUpdatedDirection = Vector3.zero;
+
+
     public Vector3 GetLastUpdatedDirection()
     {
         if(direction != Vector3.zero)

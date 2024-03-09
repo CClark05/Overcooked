@@ -12,11 +12,17 @@ public class CounterVisual : MonoBehaviour
     protected float foodYPos = 0.1275f;
     protected Color originalColor;
     protected string selectedColor = "#CCCCCC";
+    [SerializeField] private bool isBottom;
     protected void Awake()
     {
         sr = GetComponentInChildren<SpriteRenderer>();
         counterInteract = GetComponent<BaseCounter>();
         originalColor = sr.color;
+        if (isBottom)
+        {
+            sr.sortingLayerName = "Player";
+            sr.sortingOrder = 1;
+        }
     }
     protected void Start()
     {

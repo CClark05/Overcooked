@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     private float waitingToStartTimer = 1;
     private float countdownTimer = 3;
-    private float gameTimerMax = 180;
+    private float gameTimerMax = 10;
     public float gameTimer { get; private set; }
 
     private bool isGamePaused = false;
@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour
         {
             case States.WaitingToStart:
                 waitingToStartTimer -= Time.deltaTime;
-                if(waitingToStartTimer < 0)
+                if(waitingToStartTimer <= 0)
                 {
                     state = States.Countdown;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
                 break;
             case States.Countdown:
                 countdownTimer -= Time.deltaTime;
-                if (countdownTimer < 0)
+                if (countdownTimer <= 0)
                 {
                     state = States.Playing;
                     gameTimer = gameTimerMax;
@@ -81,11 +81,12 @@ public class GameManager : MonoBehaviour
                 break;
             case States.Playing:
                 gameTimer -= Time.deltaTime;
-                if (gameTimer < 0)
+                if (gameTimer <= 0)
                 {
+                    state = States.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
                     OnGameEnded?.Invoke();
-                    state = States.GameOver;
+                    
                 }
                 break;
             case States.GameOver:

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,8 +21,16 @@ public class KitchenObject : MonoBehaviour
         parent.SetKitchenObject(this);
         this.transform.parent = parent.getParentTransform();
         transform.localPosition = Vector3.zero;
+        if(parent is PlayerInteraction)
+        {
+            GetComponent<SpriteRenderer>().sortingLayerName = "Default";
+            GetComponent<SpriteRenderer>().sortingOrder = -1;
+            return;
+        }
+        GetComponent<SpriteRenderer>().sortingLayerName = "Food";
+        GetComponent<SpriteRenderer>().sortingOrder = 0;
     }
-    public IKitchenObjectParent getParent()
+    public IKitchenObjectParent GetParent()
     {
         return this.objectParent;
     }

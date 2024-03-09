@@ -53,3 +53,6 @@ TagManager:
   - name: Player
     uniqueID: 2848887559
     locked: 0
+  - name: Food
+    uniqueID: 2514966309
+    locked: 0

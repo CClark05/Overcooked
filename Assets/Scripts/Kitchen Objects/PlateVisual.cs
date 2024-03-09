@@ -20,8 +20,27 @@ public class PlateVisual : MonoBehaviour
     {
         recipes = DeliveryManager.Instance.GetRecipes();
         plateKitchenObject.OnIngredientAdded += PlateKitchenObject_OnIngredientAdded;
+        
     }
+    private void Update()
+    {
 
+            string currentSortingLayerName = GetComponent<SpriteRenderer>().sortingLayerName;
+
+            for (int i = 0; i < visualPlaceholders.Count; i++)
+            {
+                SpriteRenderer spriteRenderer = visualPlaceholders[i].GetComponent<SpriteRenderer>();
+                if (spriteRenderer.sortingLayerName != currentSortingLayerName)
+                {
+                    spriteRenderer.sortingLayerName = currentSortingLayerName;
+                }
+            }
+        if (!spriteRenderer.sortingLayerName.Equals(currentSortingLayerName))
+        {
+            spriteRenderer.sortingLayerName = currentSortingLayerName;
+        }
+
+    }
     private void PlateKitchenObject_OnIngredientAdded(object sender, PlateKitchenObject.OnIngredientAddedEventArgs e)
     {
         bool isValidRecipe = false;
@@ -53,6 +72,7 @@ public class PlateVisual : MonoBehaviour
             visualPlaceholders.Clear();
 
             spriteRenderer.sprite = validRecipe.sprite;
+            spriteRenderer.sortingLayerName = GetComponent<SpriteRenderer>().sortingLayerName;
             currentRecipe = validRecipe;
         }
         else
@@ -74,6 +94,7 @@ public class PlateVisual : MonoBehaviour
                 GameObject kitchenObjectVisual = new GameObject(kitchenObjectSOList[i].objectName);
                 kitchenObjectVisual.AddComponent<SpriteRenderer>();
                 kitchenObjectVisual.GetComponent<SpriteRenderer>().sprite = kitchenObjectSOList[i].prefab.GetComponent<SpriteRenderer>().sprite;
+                kitchenObjectVisual.GetComponent<SpriteRenderer>().sortingLayerName = GetComponent<SpriteRenderer>().sortingLayerName;
                 kitchenObjectVisual.GetComponent<SpriteRenderer>().sortingOrder = kitchenObjectSOList[i].visualOrder + 1;
                 kitchenObjectVisual.transform.parent = this.transform;
                 kitchenObjectVisual.transform.localPosition = Vector3.zero;

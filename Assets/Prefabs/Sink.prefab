@@ -72,9 +72,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 678644181
-  m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 322165827, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -213,6 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 0}
+  isBottom: 1
   dirtySinkSprite: {fileID: -322008565, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   sinkSr: {fileID: 9159609166215186806}
   counterSr: {fileID: 570624618100002180}
@@ -319,9 +320,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 678644181
-  m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1267544367, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
