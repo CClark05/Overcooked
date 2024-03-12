@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour, IMoves
             lastUpdatedDirection = Vector3.zero;
 
         };
+        GameManager.Instance.OnGameEnded += FreezeInput;
     }
     private void Update()
     {
@@ -46,11 +47,11 @@ public class PlayerMovement : MonoBehaviour, IMoves
         TakeInput();
         HandleDash();
 
-        
     }
 
     private void UserInput_onDashPressed(object sender, System.EventArgs e)
     {
+        if (GameManager.Instance.GetState() != GameManager.States.Playing) return;
         if (dashCooldownTimer == 0 && dashSpeed != 0)
         {
             moveSpeed = dashSpeed;

@@ -25,7 +25,7 @@ public class DeliveryManager : MonoBehaviour
     private List<FoodRecipeSO> currentRecipes = new List<FoodRecipeSO>();
     private int amountOfRecipesMax = 4;
     private int amountOfRecipesDelivered;
-    private int amountOfRecipesFailed;
+    public int amountOfRecipesFailed { get; private set; }
     private void Awake()
     {
         Instance = this;

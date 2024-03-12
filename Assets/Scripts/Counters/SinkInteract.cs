@@ -77,7 +77,8 @@ public class SinkInteract : BaseCounter, IHasProgressBar
         newPlate.transform.localPosition = new Vector3(0, plateOffsetY * cleanPlateVisuals.Count, 0);
         newPlate.AddComponent<SpriteRenderer>();
         newPlate.GetComponent<SpriteRenderer>().sprite = cleanPlateSO.prefab.GetComponent<SpriteRenderer>().sprite;
-        newPlate.GetComponent<SpriteRenderer>().sortingOrder = cleanPlateVisuals.Count;
+        newPlate.GetComponent<SpriteRenderer>().sortingLayerName = GetComponentInChildren<SpriteRenderer>().sortingLayerName;
+        newPlate.GetComponent<SpriteRenderer>().sortingOrder = cleanPlateVisuals.Count + 1;
         cleanPlateVisuals.Add(newPlate);
     }
 

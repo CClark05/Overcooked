@@ -31,7 +31,8 @@ public class PlateCounterVisual : CounterVisual
         newPlate.transform.localPosition = new Vector3(0, plateOffsetY * plateCounterInteract.GetPlateAmount(), 0);
         newPlate.AddComponent<SpriteRenderer>();
         newPlate.GetComponent<SpriteRenderer>().sprite = GetComponent<PlateCounterInteract>().dirtyPlateSO.prefab.GetComponent<SpriteRenderer>().sprite;
-        newPlate.GetComponent<SpriteRenderer>().sortingOrder = plateVisuals.Count;
+        newPlate.GetComponent<SpriteRenderer>().sortingLayerName = GetComponentInChildren<SpriteRenderer>().sortingLayerName;
+        newPlate.GetComponent<SpriteRenderer>().sortingOrder = plateVisuals.Count + 2;
         plateVisuals.Add(newPlate);
     }
 }

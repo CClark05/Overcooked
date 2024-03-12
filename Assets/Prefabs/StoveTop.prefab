@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 1506220692506635049}
+  isBottom: 0
 --- !u!114 &4815183160783847181
 MonoBehaviour:
   m_ObjectHideFlags: 0

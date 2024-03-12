@@ -22,6 +22,7 @@ public class PlayerAnimation : SpriteAnimator
     }
     new private void Update()
     {
+        if (GameManager.Instance.GetState() != GameManager.States.Playing) return;
         base.Update();
         if (playerMovement.isDashing) return;
         if((Vector2)playerMovement.GetCurrentDirection() == Vector2.zero)

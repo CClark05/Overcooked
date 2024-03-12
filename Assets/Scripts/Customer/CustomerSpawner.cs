@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class CustomerSpawner : MonoBehaviour
     private List<CustomerData> customers = new List<CustomerData>();
     [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
     [SerializeField] private List<CustomerData.Moods> customerMoods = new List<CustomerData.Moods>();
+    public Action<CustomerData.Moods> OnMoodAdded;
     private void Awake()
     {
         Instance = this;
@@ -54,6 +56,7 @@ public class CustomerSpawner : MonoBehaviour
             {
                 customerMoods.Add(customer.GetMood());
                 customer.FoodReady();
+                OnMoodAdded?.Invoke(customer.GetMood());
                 return;
             }
         }
@@ -71,5 +74,9 @@ public class CustomerSpawner : MonoBehaviour
         }
         Debug.LogError("recipe not valid");
         return null;
+    }
+    public List<CustomerData.Moods> GetCustomerMoods()
+    {
+        return customerMoods;
     }
 }

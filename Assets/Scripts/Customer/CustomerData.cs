@@ -23,8 +23,8 @@ public class CustomerData : MonoBehaviour
     [SerializeField] private float patienceLevel;
     private bool hasFood;
     private float _patienceLevel;
-    private float minPatience = 20; //20
-    private float maxPatience = 40; //40
+    private float minPatience = 10; 
+    private float maxPatience = 20; 
     private float eatTime = 3;
     private float totalPatience;
     public bool hasUI;
