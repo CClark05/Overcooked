@@ -21,10 +21,10 @@ public class DeliveryManager : MonoBehaviour
     }
     public static DeliveryManager Instance { get; private set; }
     [SerializeField] private float spawnRecipeTimer;
-    [SerializeField] private FoodRecipeSO[] availableRecipes;
+    private FoodRecipeSO[] availableRecipes;
     private List<FoodRecipeSO> currentRecipes = new List<FoodRecipeSO>();
     private int amountOfRecipesMax = 4;
-    private int amountOfRecipesDelivered;
+    public int amountOfRecipesDelivered { get; private set; }
     public int amountOfRecipesFailed { get; private set; }
     private void Awake()
     {
@@ -34,6 +34,7 @@ public class DeliveryManager : MonoBehaviour
     {
         CustomerData.OnLostPatience += CustomerLeftStore;
         GameManager.Instance.OnGameStarted += SpawnRecipe;
+        availableRecipes = GameManager.Instance.LevelData.availableRecipes;
     }
     private float timer = -0.5f;
     private void Update()
@@ -75,7 +76,7 @@ public class DeliveryManager : MonoBehaviour
     }
     private void CustomerLeftStore(FoodRecipeSO recipe)
     {
-        RedFlash.i.Flash();
+        
         foreach(FoodRecipeSO currentRecipe in currentRecipes)
         {
             if(currentRecipe == recipe)
@@ -86,7 +87,8 @@ public class DeliveryManager : MonoBehaviour
                     recipeSO = recipe
                 });
                 amountOfRecipesFailed++;
-                timer = 0;
+                timer = 0; 
+                RedFlash.i.Flash();
                 return;
             }
         }
@@ -108,11 +110,6 @@ public class DeliveryManager : MonoBehaviour
     public List<FoodRecipeSO> GetCurrentRecipes()
     {
         return currentRecipes;
-    }
-
-    public int GetAmountOfRecipesDelivered()
-    {
-        return amountOfRecipesDelivered;
     }
 
     public int GetRecipesMax()

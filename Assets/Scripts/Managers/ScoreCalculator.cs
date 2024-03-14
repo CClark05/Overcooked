@@ -7,6 +7,8 @@ public class ScoreCalculator : MonoBehaviour
 {
     public static ScoreCalculator Instance;
     public int score { get; private set; }
+    public int scoreFromRecipesDelivered { get; private set; }
+    public int scoreFromRecipesFailed { get; private set; }
     public int lastScore { get; private set; }
     public Action OnScoreChanged;
     private void Awake()
@@ -20,6 +22,7 @@ public class ScoreCalculator : MonoBehaviour
         {
             lastScore = score;
             score -= 30;
+            scoreFromRecipesFailed -= 30;
             OnScoreChanged?.Invoke();
         };
     }
@@ -30,15 +33,19 @@ public class ScoreCalculator : MonoBehaviour
         {
             case CustomerData.Moods.Content:
                 score += 50;
+                scoreFromRecipesDelivered += 50;
                 break;
             case CustomerData.Moods.Impatient:
                 score += 40;
+                scoreFromRecipesDelivered += 40;
                 break;
             case CustomerData.Moods.Frustrated:
                 score += 30;
+                scoreFromRecipesDelivered += 30;
                 break;
             case CustomerData.Moods.Angry:
                 score += 20;
+                scoreFromRecipesDelivered += 20;
                 break;
         }
         OnScoreChanged?.Invoke();

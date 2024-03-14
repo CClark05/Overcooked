@@ -343,7 +343,7 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: 2cb565fc0b8d53d4388c10ede2f03d8d
     - name: GameUI_Frame_2
@@ -351,7 +351,7 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: c7b5eb6130aced849b38786156fcf953
     - name: GameUI_Frame_3
@@ -359,7 +359,7 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: 70a44d99d4e9fae46a09ab20cbe185cc
     - name: GameUI_Frame_4
@@ -367,7 +367,7 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: e7b37a1b0ae31864bb035fedc2fd248c
     - name: GameUI_Frame_5
@@ -375,7 +375,7 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: bdcaf053a174e8a44a3d09912f796c89
     - name: GameUI_Frame_6
@@ -383,7 +383,7 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: 16e72dd230df16248a8f5ad5f8c4ac09
     - name: GameUI_Frame_7
@@ -391,137 +391,9 @@ ScriptedImporter:
       cellRect:
         x: 25
         y: 4
-        width: 225
+        width: 231
         height: 75
       spriteId: 8e3f60825fb52e041b4a48fd23262222
-    - name: GameUI_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 11ff3a555a222324985fc105fda780e8
-    - name: GameUI_Frame_9
-      frameIndex: 9
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 6311649f3e2383c468bc369284b204c9
-    - name: GameUI_Frame_10
-      frameIndex: 10
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: d7debc9b8721b884da228ec8c8af0af4
-    - name: GameUI_Frame_11
-      frameIndex: 11
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 5af733d0b6c7a7a44a8d63668fd247da
-    - name: GameUI_Frame_12
-      frameIndex: 12
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 8203a512df8ade64885cdbc488df7779
-    - name: GameUI_Frame_13
-      frameIndex: 13
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 807d2217f58c69240b94da90a4698a15
-    - name: GameUI_Frame_14
-      frameIndex: 14
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 2ea37bd7977c0f84990a2fd69e7497b9
-    - name: GameUI_Frame_15
-      frameIndex: 15
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 38147ef82b3458f4182bee36bba4e03c
-    - name: GameUI_Frame_16
-      frameIndex: 16
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 92801d766670ab4408d154460fff45dc
-    - name: GameUI_Frame_17
-      frameIndex: 17
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: fe7ea2a37cd65554f91f4d65b141993d
-    - name: GameUI_Frame_18
-      frameIndex: 18
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: d476f702851196043bf10ac580691fd4
-    - name: GameUI_Frame_19
-      frameIndex: 19
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 7ddf300a930bfae49943f27768ce2418
-    - name: GameUI_Frame_20
-      frameIndex: 20
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: ad067e4bdd56d84488053bac92ae459d
-    - name: GameUI_Frame_21
-      frameIndex: 21
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: 448bc84973084e34b8cadc158f49ce52
-    - name: GameUI_Frame_22
-      frameIndex: 22
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: f7383438dbda4a04bb42b159833cdd29
-    - name: GameUI_Frame_23
-      frameIndex: 23
-      cellRect:
-        x: 25
-        y: 4
-        width: 225
-        height: 75
-      spriteId: d4b96cc4f9157fe42ab4f137c046ecb0
     linkedCells: []
     parentIndex: -1
   platformSettings:

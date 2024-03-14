@@ -58,31 +58,9 @@ public class CustomerMovement : MonoBehaviour
             case States.GettingFood:
                 //Debug.Log("Getting food");
                 pathfindingMovement.SetTarget(Target.TargetNames.CustomerPickup, () => {
-                    state = States.RecievedFood;
+                    state = States.LeavingStore;
                     OnRecievedFood?.Invoke(recipe);
                 });
-                break;
-            case States.RecievedFood:
-                //Debug.Log("Recieved food");
-                if (chair == null)
-                {
-                    chair = Chair.FindEmptyChair();
-                }
-                pathfindingMovement.SetTarget(chair.transform.position, () =>
-                {
-                    chair.AddCustomer(this);
-                    state = States.EatingFood;
-                    FunctionTimer.Create(() =>
-                    {
-                        chair.RemoveCustomer();
-                        state = States.LeavingStore;
-                        OnDoneEating?.Invoke();
-
-                    }, customerData.GetEatTime());
-                });
-                break;
-            case States.EatingFood:
-                //Debug.Log("Eating Food");
                 break;
             case States.LeavingStore:
                 //Debug.Log("left store");

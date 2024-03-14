@@ -7,6 +7,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    [SerializeField] private LevelData levelData;
+    public LevelData LevelData => levelData;
 
     public event EventHandler OnStateChanged;
     public event EventHandler OnGamePaused;
@@ -24,7 +26,7 @@ public class GameManager : MonoBehaviour
 
     private float waitingToStartTimer = 1;
     private float countdownTimer = 3;
-    private float gameTimerMax = 180;
+    private float gameTimerMax;
     public float gameTimer { get; private set; }
 
     private bool isGamePaused = false;
@@ -32,6 +34,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        gameTimerMax = levelData.duration;
         state = States.WaitingToStart;
     }
     private void Start()

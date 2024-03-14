@@ -2,15 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOverUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI recipesDeliveredText;
+    [SerializeField] private TextMeshProUGUI recipesFailedText;
+    [SerializeField] private Sprite goldStarSprite;
+    [SerializeField] private Sprite greyStarSprite;
+    [SerializeField] private Image star1;
+    [SerializeField] private Image star2;
+    [SerializeField] private Image star3;
+    private TextMeshProUGUI starScore1;
+    private TextMeshProUGUI starScore2;
+    private TextMeshProUGUI starScore3;
     private GameManager gameManager;
-    private void Start()
+    private LevelData levelData;
+    private Image[] stars;
+    private int[] starScores;
+    private void Awake()
     {
         gameManager = GameManager.Instance;
+        levelData = gameManager.LevelData;
+        starScore1 = star1.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        starScore2 = star2.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        starScore3 = star3.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        stars = new Image[] { star1, star2, star3 };
+        starScores = new int[] { levelData.starScore_1, levelData.starScore_2, levelData.starScore_3 };
+    }
+    private void Start()
+    {
         gameManager.OnStateChanged += Instance_OnStateChanged;
+        starScore1.text = levelData.starScore_1.ToString();
+        starScore2.text = levelData.starScore_2.ToString();
+        starScore3.text = levelData.starScore_3.ToString();
         gameObject.SetActive(false);
     }
 
@@ -19,7 +45,19 @@ public class GameOverUI : MonoBehaviour
         if (gameManager.GetState() == GameManager.States.GameOver)
         {
             gameObject.SetActive(true);
-            scoreText.text = DeliveryManager.Instance.GetAmountOfRecipesDelivered().ToString();
+            scoreText.text = ScoreCalculator.Instance.score.ToString();
+            recipesDeliveredText.text = "Orders Delivered : " + DeliveryManager.Instance.amountOfRecipesDelivered.ToString();
+            recipesFailedText.text = "Orders Failed : " + DeliveryManager.Instance.amountOfRecipesFailed.ToString();
+            recipesDeliveredText.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = ScoreCalculator.Instance.scoreFromRecipesDelivered.ToString();
+            recipesFailedText.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = ScoreCalculator.Instance.scoreFromRecipesFailed.ToString();
+            for(int i = 0; i<stars.Length; i++)
+            {
+                if(ScoreCalculator.Instance.score >= starScores[i])
+                {
+                    stars[i].sprite = goldStarSprite;
+                }
+            }
+            
             return;
         }
         gameObject.SetActive(false);
