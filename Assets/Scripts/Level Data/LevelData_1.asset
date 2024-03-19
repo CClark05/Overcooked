@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c0ad01f1a27d4b8fbb6502ba9c898, type: 3}
   m_Name: LevelData_1
   m_EditorClassIdentifier: 
-  duration: 0
-  availableRecipes: []
-  scores: 
+  duration: 3
+  level: 1
+  availableRecipes:
+  - {fileID: 11400000, guid: 4cc34954a2cef484fa7f7d608dcfc127, type: 2}
+  - {fileID: 11400000, guid: b0e6d733cc3c5ff42b923ec3c11257fa, type: 2}
+  - {fileID: 11400000, guid: c3e150624b0b9c8418629245bac25c0a, type: 2}
+  - {fileID: 11400000, guid: 3630c60b2838fd64bb81901eee533092, type: 2}
+  - {fileID: 11400000, guid: 22271390117ce6349898371d898d4b17, type: 2}
+  - {fileID: 11400000, guid: 0521287ddca69eb4bbd5a7b73c35080c, type: 2}
+  - {fileID: 11400000, guid: 4c84aa6855bd7424196e3b7eb587e69d, type: 2}
+  - {fileID: 11400000, guid: 2049a23dd4a11d449ae4a40387cb34de, type: 2}
+  - {fileID: 11400000, guid: 0060fe839b9517746b1ff9d33a84f3c9, type: 2}
+  - {fileID: 11400000, guid: 71b12015c4c512a41a067d2b021411a9, type: 2}
+  starScore_1: 10
+  starScore_2: 50
+  starScore_3: 300

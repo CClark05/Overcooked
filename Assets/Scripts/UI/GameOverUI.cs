@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class GameOverUI : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI levelText;
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI recipesDeliveredText;
     [SerializeField] private TextMeshProUGUI recipesFailedText;
@@ -28,6 +29,7 @@ public class GameOverUI : MonoBehaviour
         starScore1 = star1.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         starScore2 = star2.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         starScore3 = star3.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        levelText.text = "LEVEL " + gameManager.LevelData.level.ToString();
         stars = new Image[] { star1, star2, star3 };
         starScores = new int[] { levelData.starScore_1, levelData.starScore_2, levelData.starScore_3 };
     }
