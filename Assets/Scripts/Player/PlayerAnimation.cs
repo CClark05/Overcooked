@@ -20,7 +20,7 @@ public class PlayerAnimation : SpriteAnimator
         playerMovement.OnDash += DashAnimation;
         playerLifeCycle.OnDeath += DeathAnimation;
     }
-    new private void Update()
+    private new void Update()
     {
         if (GameManager.Instance.GetState() != GameManager.States.Playing) return;
         base.Update();

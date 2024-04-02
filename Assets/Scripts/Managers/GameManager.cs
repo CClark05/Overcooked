@@ -87,8 +87,8 @@ public class GameManager : MonoBehaviour
                 if (gameTimer <= 0)
                 {
                     state = States.GameOver;
-                    OnStateChanged?.Invoke(this, EventArgs.Empty);
                     OnGameEnded?.Invoke();
+                    OnStateChanged?.Invoke(this, EventArgs.Empty);
                     
                 }
                 break;

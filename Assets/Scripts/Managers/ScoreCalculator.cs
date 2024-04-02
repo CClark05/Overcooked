@@ -1,12 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
+using SaveSystem;
 using UnityEngine;
 
 public class ScoreCalculator : MonoBehaviour
 {
     public static ScoreCalculator Instance;
     public int score { get; private set; }
+    public int highScore { get; private set; }
     public int scoreFromRecipesDelivered { get; private set; }
     public int scoreFromRecipesFailed { get; private set; }
     public int lastScore { get; private set; }
@@ -14,6 +17,7 @@ public class ScoreCalculator : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        highScore = 0;
     }
     private void Start()
     {
@@ -49,5 +53,15 @@ public class ScoreCalculator : MonoBehaviour
                 break;
         }
         OnScoreChanged?.Invoke();
+    }
+    public void ModifyScore(int score)
+    {
+        this.score += score;
+        OnScoreChanged?.Invoke();
+    }
+
+    public void SetHighScore(int score)
+    {
+        this.highScore = score;
     }
 }
