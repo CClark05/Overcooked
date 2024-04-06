@@ -79,7 +79,7 @@ public class PathfindingTarget : MonoBehaviour
                 return target;
             }
         }
-        Debug.LogError("Target psoition not valid");
+        Debug.LogError("Target position not valid");
         return null;
     }
 

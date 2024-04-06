@@ -20,7 +20,7 @@ public class PlayerLifeCycle: MonoBehaviour
     {
         transform.position = spawnPoint.position;
         transform.localScale = new Vector3(1, 1, 1);
-        GetComponent<PlayerMovement>().UnFreezeInput();
+        GetComponent<PlayerMovement>().UnLockMovement();
         isDead = false;
     }
 
@@ -28,25 +28,16 @@ public class PlayerLifeCycle: MonoBehaviour
     {
         if (GetComponent<PlayerMovement>().isDashing) return;
         isDead = true;
+        
         if (PlayerInteraction.Instance.HasKitchenObject())
         {
-            Vector2 direction = GetComponent<PlayerMovement>().GetLastUpdatedDirection();
-            TileManager.Instance.TryGetBaseCounterFromPosition(holePosition - direction, out BaseCounter counter);
-            if (!(counter is FloorInteract))
+            KitchenObject kitchenObject= PlayerInteraction.Instance.GetKitchenObject();
+            if (PlateKitchenObject.IsPlate(kitchenObject, out PlateKitchenObject plate))
             {
-                Debug.LogError("PlayerLifeCycle.Die()");
-                return;
+                SinkInteract.Instance.AddCleanPlate();
             }
-            FloorInteract floor = counter as FloorInteract;
-            floor.HasObject();
-            if (floor.HasKitchenObject())
-            {
-                floor.AddToList(floor.GetKitchenObject());
-            }
-            PlayerInteraction.Instance.GetKitchenObject().SetParent(floor);
-            
         }
-        GetComponent<PlayerMovement>().FreezeInput();
+        GetComponent<PlayerMovement>().LockMovement();
         OnDeath?.Invoke(GetComponent<PlayerMovement>().GetCurrentDirection());
     }
 }

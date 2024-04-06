@@ -6,7 +6,7 @@ public class FlipDirection : MonoBehaviour
 {
     [SerializeField] private Transform kitchenObjectParent;
     private Vector2 startingPosition;
-    private Vector2 direction => GetComponent<IMoves>().Direction;
+    private Vector2 direction => GetComponent<IMoveable>().MovementDirection;
     private void Awake()
     {
         startingPosition = kitchenObjectParent.transform.localPosition;

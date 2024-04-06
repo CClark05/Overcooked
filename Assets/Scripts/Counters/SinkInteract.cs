@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SinkInteract : BaseCounter, IHasProgressBar
 {
+    public static SinkInteract Instance { get; private set; }
     public Action OnHasDirtyPlate;
     public Action OnSinkEmpty;
 
@@ -17,6 +18,11 @@ public class SinkInteract : BaseCounter, IHasProgressBar
 
     public event EventHandler<IHasProgressBar.OnProgressChangedEventArgs> OnProgressChanged;
 
+    private new void Awake()
+    {
+        base.Awake();
+        Instance = this;
+    }
     new private void Start()
     {
         base.Start();

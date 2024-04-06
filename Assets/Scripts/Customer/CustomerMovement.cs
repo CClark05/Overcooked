@@ -9,8 +9,6 @@ public class CustomerMovement : MonoBehaviour
     {
         WaitingForFood,
         GettingFood,
-        RecievedFood,
-        EatingFood,
         LeavingStore
     }
     [SerializeField] private States state;
@@ -22,8 +20,22 @@ public class CustomerMovement : MonoBehaviour
 
     private PathfindingMovement pathfindingMovement;
     private FoodRecipeSO recipe;
-    private Chair chair = null;
     Target randomTarget = null;
+    public Vector2 MovementDirection => pathfindingMovement.CurrentMovementDirection;
+    
+    private Vector2 lastUpdatedDirection;
+    public Vector2 LastUpdatedDirection
+    {
+        get
+        {
+            if (MovementDirection != Vector2.zero)
+            {
+                lastUpdatedDirection = MovementDirection;
+            }
+
+            return lastUpdatedDirection;
+        }
+    }
     private void Awake()
     {
         customerData = GetComponent<CustomerData>();
@@ -58,6 +70,7 @@ public class CustomerMovement : MonoBehaviour
             case States.GettingFood:
                 //Debug.Log("Getting food");
                 pathfindingMovement.SetTarget(Target.TargetNames.CustomerPickup, () => {
+                    Debug.Log("test");
                     state = States.LeavingStore;
                     OnRecievedFood?.Invoke(recipe);
                 });

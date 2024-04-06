@@ -20,12 +20,9 @@ public class PlateCounterInteract : BaseCounter
     new private void Start()
     {
         base.Start();
-        DeliveryCounterInteract.OnFoodDelivered += () =>
-        {
-            OnPlateSpawned?.Invoke(this, EventArgs.Empty);
-            plateAmount++;
-        };
+        DeliveryCounterInteract.OnFoodDelivered += SpawnPlate;
     }
+
     /**
     private void Update()
     {
@@ -41,6 +38,11 @@ public class PlateCounterInteract : BaseCounter
         }
     }
     */
+    private void SpawnPlate()
+    {
+        OnPlateSpawned?.Invoke(this, EventArgs.Empty);
+        plateAmount++;
+    }
     public override void Interact()
     {
         if (!player.HasKitchenObject())

@@ -6,9 +6,17 @@ namespace SaveSystem
 {
     public class SaveManager : MonoBehaviour
     {
-        private static SaveManager instance;
+        public static SaveManager Instance { get; private set; }
+        public Action OnNewHighScore;
+        public bool HasNewHighScore { get; private set; }
+
         // ReSharper disable once Unity.IncorrectMonoBehaviourInstantiation
-        public static SaveManager Instance => instance ??= new SaveManager();
+        private void Awake()
+        {
+            Instance = this;
+            HasNewHighScore = false;
+        }
+
         private void Start()
         {
             GameManager.Instance.OnGameStarted += () =>
@@ -22,6 +30,8 @@ namespace SaveSystem
                 {
                     ScoreCalculator.Instance.SetHighScore(SaveData.Instance.GetHighScore(GameManager.Instance.LevelData.level));
                     SaveData.Instance.SaveHighScore();
+                    OnNewHighScore?.Invoke();
+                    HasNewHighScore = true;
                 }
             };
         }

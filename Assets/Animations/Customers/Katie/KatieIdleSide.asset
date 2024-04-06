@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1325209352fad4ba943c6a51fc7d9b, type: 3}
+  m_Name: KatieIdleSide
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 3203209645219090549, guid: 2e34c7659d32ed84f93a57bae607b1ef, type: 3}
+  - {fileID: 8584970412674214944, guid: 2e34c7659d32ed84f93a57bae607b1ef, type: 3}
+  frameRate: 1
+  isLooping: 1
+  isLocked: 0
+  lockMovement: 0

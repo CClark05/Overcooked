@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,12 +9,27 @@ public class CustomerVisual : MonoBehaviour
     private GameObject foodVisual;
     [SerializeField] private Sprite[] moodSprites;
     [SerializeField] private SpriteRenderer moodSr;
+    private SpriteRenderer sr;
+    private CustomerMovement customerMovement;
+
+    private void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        customerMovement = GetComponent<CustomerMovement>();
+    }
+
     private void Start()
     {
         GetComponent<CustomerMovement>().OnRecievedFood += GotFood;
         GetComponent<CustomerMovement>().OnDoneEating += DoneEating;
         CustomerData.OnMoodChanged += UpdateMoodSprite;
     }
+
+    private void Update()
+    {
+        FlipSprite();
+    }
+
     private void GotFood(FoodRecipeSO recipe)
     {
         foodVisual = new GameObject("food visual");
@@ -26,6 +42,19 @@ public class CustomerVisual : MonoBehaviour
     private void DoneEating()
     {
         Destroy(foodVisual);
+    }
+
+    private void FlipSprite()
+    {
+        Vector2 direction = customerMovement.MovementDirection;
+        if (direction.x < 0)
+        {
+            if (!sr.flipX) sr.flipX = true;
+        }else if (direction.x > 0)
+        {
+            if (sr.flipX) sr.flipX = false;
+        }
+
     }
 
     private void UpdateMoodSprite()

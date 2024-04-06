@@ -8,7 +8,9 @@ public class PathfindingMovement : MonoBehaviour
 {
     private IAstarAI ai;
     [SerializeField] private Target target;
-    public List<(Action, Target.TargetNames)> OnReachedDestinationList = new List<(Action, Target.TargetNames)>();
+    private List<(Action, Target.TargetNames)> OnReachedDestinationList = new List<(Action, Target.TargetNames)>();
+
+    public Vector2 CurrentMovementDirection => ai.desiredVelocity;
 
     private void Awake()
     {

@@ -9,7 +9,7 @@ public class CounterVisual : MonoBehaviour
     protected SpriteRenderer sr;
     protected BaseCounter counterInteract;
     [SerializeField] protected Transform foodVisual;
-    protected float foodYPos = 0.1275f;
+    protected float foodYPos = 0.125f;
     protected Color originalColor;
     protected string selectedColor = "#CCCCCC";
     [SerializeField] private bool isBottom;
@@ -32,9 +32,12 @@ public class CounterVisual : MonoBehaviour
             if (tileToPrefab.GetIsEdge())
             {
                 foodVisual.localPosition = new Vector3(0, foodYPos, 0);
-                return;
             }
-            foodVisual.localPosition = new Vector3(0, 0, 0);
+
+            if (tileToPrefab.GetFoodXPos() != 0)
+            {
+                foodVisual.localPosition = new Vector3(tileToPrefab.GetFoodXPos(), foodVisual.localPosition.y, 0);
+            }
         }
     }
 

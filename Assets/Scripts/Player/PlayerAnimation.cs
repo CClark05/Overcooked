@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimation : SpriteAnimator
+public class PlayerAnimation : SpriteAnimatorOLD
 {
     private PlayerMovement playerMovement;
     private PlayerLifeCycle playerLifeCycle;
@@ -95,7 +95,9 @@ public class PlayerAnimation : SpriteAnimator
         }
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f).setEase(deathCurve).setOnComplete(() => {
             OnDeathAnimationDone?.Invoke();
-            OverrideSetAnimation(spriteAnimations[0]);     
+            OverrideSetAnimation(spriteAnimations[0]);   
+            PlayerInteraction.Instance.GetKitchenObject()?.DestroySelf();
+            
         });
     }
     

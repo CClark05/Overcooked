@@ -2,15 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class CustomerSpawner : MonoBehaviour
 {
     public static CustomerSpawner Instance;
 
-    [SerializeField] private GameObject customerPrefab;
+    [SerializeField] private GameObject[] customerPrefabs;
     private List<CustomerData> customers = new List<CustomerData>();
     [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
-    [SerializeField] private List<CustomerData.Moods> customerMoods = new List<CustomerData.Moods>();
+    private List<CustomerData.Moods> customerMoods = new List<CustomerData.Moods>();
     public Action<CustomerData.Moods> OnMoodAdded;
     private void Awake()
     {
@@ -41,7 +42,7 @@ public class CustomerSpawner : MonoBehaviour
 
     private void SpawnCustomer(FoodRecipeSO recipe)
     {
-        GameObject newCustomer = Instantiate(customerPrefab);
+        GameObject newCustomer = Instantiate(customerPrefabs[UnityEngine.Random.Range(0, customerPrefabs.Length)]);
         newCustomer.GetComponent<CustomerData>().SetRecipe(recipe);
         newCustomer.transform.position = spawnPoints[UnityEngine.Random.Range(0, spawnPoints.Count)].position;
         customers.Add(newCustomer.GetComponent<CustomerData>());

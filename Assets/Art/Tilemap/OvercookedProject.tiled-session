@@ -26,15 +26,15 @@
         },
         "Rules/AutotileRules.tmx": {
             "expandedObjectLayers": [
+                9,
                 8,
-                7,
-                9
+                7
             ],
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 588.25,
-                "y": 398.5
+                "x": 589.25,
+                "y": 399.75
             }
         },
         "Rules/AutotileRules.tmx#AutoMap Rules": {
@@ -45,33 +45,33 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 638.25,
-                "y": 284
+                "x": 637.75,
+                "y": 283.5
             }
         },
         "Rules/Refined_RefinedRules.tmx": {
             "scale": 2.315625,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 282.6450742240216,
-                "y": 159.3522267206478
+                "x": 51.60593792172739,
+                "y": 108.39406207827258
             }
         },
         "Rules/TileToObject.tmx": {
             "expandedObjectLayers": [
-                8,
-                5,
-                3,
                 6,
-                7,
+                2,
+                5,
                 4,
-                2
+                8,
+                3,
+                7
             ],
-            "scale": 2,
-            "selectedLayer": 4,
+            "scale": 5.5,
+            "selectedLayer": 7,
             "viewCenter": {
-                "x": 214.75,
-                "y": 158.5
+                "x": 127.36363636363636,
+                "y": 140.90909090909093
             }
         },
         "Rules/TileToObject.tmx#AutoMap Rules": {
@@ -79,21 +79,21 @@
         },
         "Tilemap.tmx": {
             "expandedObjectLayers": [
-                11,
-                5,
                 6,
-                14,
-                10,
-                7,
                 12,
+                13,
+                14,
+                5,
                 9,
-                13
+                7,
+                11,
+                10
             ],
             "scale": 3,
-            "selectedLayer": 9,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 147.16666666666666,
-                "y": 77.33333333333333
+                "x": 163.16666666666666,
+                "y": 66.33333333333333
             }
         }
     },
@@ -114,7 +114,7 @@
         "Rules/TileToObject.tmx"
     ],
     "project": "OvercookedProject.tiled-project",
-    "property.type": "bool",
+    "property.type": "float",
     "recentFiles": [
         "Overcooked Tileset.tsx",
         "Rules/TileToObject.tmx",

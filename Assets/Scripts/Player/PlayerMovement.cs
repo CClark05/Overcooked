@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Xml;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour, IMoves
+public class PlayerMovement : MonoBehaviour, IMoveable
 { 
     [SerializeField] private float moveSpeed;
     private float _moveSpeed;
@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour, IMoves
     private float dashCooldownTimer = 0;
     public bool isDashing { get; private set; }
 
-    public Vector2 Direction => direction;
+    public Vector2 MovementDirection => direction;
 
     public Action<Vector2> OnDash;
     private Vector3 direction;
@@ -33,13 +33,13 @@ public class PlayerMovement : MonoBehaviour, IMoves
     private void Start()
     {
         UserInput.Instance.onDashPressed += UserInput_onDashPressed;
-        GetComponent<PlayerLifeCycle>().OnDeath += (Vector2 direction) =>
+        GetComponent<PlayerLifeCycle>().OnDeath += (Vector2 _) =>
         {
             this.direction = Vector3.zero;
             lastUpdatedDirection = Vector3.zero;
 
         };
-        GameManager.Instance.OnGameEnded += FreezeInput;
+        GameManager.Instance.OnGameEnded += LockMovement;
     }
     private void Update()
     {
@@ -111,12 +111,12 @@ public class PlayerMovement : MonoBehaviour, IMoves
     {
         return direction;
     }
-    public void FreezeInput()
+    public void LockMovement()
     {
         moveSpeed = 0;
         dashSpeed = 0;
     }
-    public void UnFreezeInput()
+    public void UnLockMovement()
     {
         moveSpeed = _moveSpeed;
         dashSpeed = _dashSpeed;

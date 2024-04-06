@@ -142,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tables_0
+      name: TableLongFront
       rect:
         serializedVersion: 2
-        x: 46
-        y: 157
-        width: 36
-        height: 30
+        x: 47
+        y: 158
+        width: 34
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,96 +163,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_1
+      name: TableShortFront
       rect:
         serializedVersion: 2
-        x: 110
-        y: 157
-        width: 36
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21f9e321d0eee18c0800000000000000
-      internalID: -4026519276914565358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tables_2
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 156
-        width: 36
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f109b458a06f3750800000000000000
-      internalID: 6286849880924684786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tables_3
-      rect:
-        serializedVersion: 2
-        x: 228
+        x: 229
         y: 151
-        width: 40
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ee5e43f6fab87c30800000000000000
-      internalID: 4357438209287675617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tables_4
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 171
-        width: 40
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c6b6d1e5b6434b80800000000000000
-      internalID: -8411801932005984568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tables_8
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 171
-        width: 39
+        width: 36
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -268,22 +184,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tables_9
+      name: TableLongBack
       rect:
         serializedVersion: 2
-        x: 277
-        y: 151
-        width: 38
-        height: 20
+        x: 48
+        y: 172
+        width: 32
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 773f958f31c8746e0800000000000000
-      internalID: -1853358704240757897
+      spriteID: a11e15d7a2063a6418495501e94051a1
+      internalID: 1730815195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TableShortBack
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 152
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f63558f1de3eec47815d8a24230460a
+      internalID: 924891718
       vertices: []
       indices: 
       edges: []
@@ -299,7 +236,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tables_0: -1154851256020454382
+      TableLongBack: 2053722442673013397
+      TableLongFront: -1154851256020454382
+      TableShortBack: 924891718
+      TableShortFront: 8524305636641115434
       Tables_1: -4026519276914565358
       Tables_10: 3844575377753506731
       Tables_11: -8312236323084421282
@@ -309,10 +249,8 @@ TextureImporter:
       Tables_2: 6286849880924684786
       Tables_3: 4357438209287675617
       Tables_4: -8411801932005984568
-      Tables_5: 2053722442673013397
       Tables_6: -6760248485457446290
       Tables_7: -407572211455579873
-      Tables_8: 8524305636641115434
       Tables_9: -1853358704240757897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

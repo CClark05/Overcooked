@@ -1,106 +1,80 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))] 
 public abstract class SpriteAnimator : MonoBehaviour
 {
-    [SerializeField] protected List<SpriteAnimation> spriteAnimations;
+    [SerializeField] protected SpriteAnimation[] animations;
     private SpriteAnimation currentAnimation;
-    protected SpriteRenderer sr;
-    private int currentSpriteIndex = 0;
-    private float timer = 0;
-    private SpriteAnimation nextAnimation;
-    private Action OnComplete;
-    private bool lockAnimation;
-    public void Init(SpriteAnimation startingAnimation)
+    private SpriteRenderer sr;
+    private float timer;
+    private int currentFrame;
+    private Sprite startingSprite;
+    protected void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
-        SetAnimation(startingAnimation);
+        startingSprite = sr.sprite;
+    }
+    public void SetAnimation(SpriteAnimation animation)
+    {
+        if (animation == currentAnimation) return;
+        if (currentAnimation != null && currentAnimation.isLocked && !currentAnimation.GetIsDone()) return;
+        currentAnimation = animation;
+        currentAnimation.SetIsDone(false);
+        currentFrame = 0;
+        timer = 0;
+        sr.sprite = animation.sprites[0];
+        if (currentAnimation.lockMovement)
+        {
+            if(TryGetComponent(out IMoveable moveable))
+            {
+                moveable.LockMovement();
+            }
+            else
+            {
+                Debug.LogError("No IMoveable component found");
+            }
+        }
+    }
+    public void StopAnimation()
+    {
+        if (currentAnimation != null)
+        {
+            currentAnimation = null;
+            sr.sprite = startingSprite;
+        }
+
     }
     protected void Update()
     {
-        if (currentAnimation == null)
-        {
-            Debug.LogError("current animation is null");
-            return;
-        }
+        if (currentAnimation == null) return;
         timer += Time.deltaTime;
-        if (timer >= 1f / currentAnimation.frameRate)
-        {
-            timer = 0;
-            currentSpriteIndex++;
 
-            if (currentSpriteIndex >= currentAnimation.sprites.Length)
+        if(timer >= 1f / currentAnimation.frameRate)
+        {
+
+            currentFrame++;
+            if(currentFrame >= currentAnimation.sprites.Length)
             {
-                if (currentAnimation.looping)
+                if (currentAnimation.isLooping)
                 {
-                    currentSpriteIndex = 0;
+                    currentFrame = 0;
                 }
                 else
                 {
-                    if (OnComplete != null) OnComplete.Invoke();
-                    currentAnimation = nextAnimation;
-                    currentSpriteIndex = 0;
-                    
+                    currentAnimation.OnComplete?.Invoke();
+                    currentAnimation.SetIsDone(true);
+                    if(currentAnimation.lockMovement) GetComponent<IMoveable>().UnLockMovement();
+                    currentAnimation = null;
+                    sr.sprite = startingSprite;
+                    return;
                 }
             }
-
-            sr.sprite = currentAnimation.sprites[currentSpriteIndex];
+            sr.sprite = currentAnimation.sprites[currentFrame];
+            timer = 0;
+            
         }
     }
-    protected void SetAnimation(SpriteAnimation animation)
-    {
-        if (currentAnimation != null && currentAnimation.locked || lockAnimation) return;
-        if (currentAnimation != animation) {
-            this.currentAnimation = animation;
-            sr.sprite = animation.sprites[0];
-        }
-    }
-    protected void OverrideSetAnimation(SpriteAnimation animation)
-    {
-        if (currentAnimation != animation)
-        {
-            this.currentAnimation = animation;
-            sr.sprite = animation.sprites[0];
-        }
-    }
-    protected void SetAnimation(SpriteAnimation animation, SpriteAnimation nextAnimation)
-    {
-        if (currentAnimation != null && currentAnimation.locked || lockAnimation) return;
-        this.nextAnimation = nextAnimation;
-        OnComplete = null;
-        if (currentAnimation != animation)
-        {
-            this.currentAnimation = animation;
-            sr.sprite = animation.sprites[0];
-        }
-    }
-    protected void SetAnimation(SpriteAnimation animation, SpriteAnimation nextAnimation, Action OnComplete)
-    {
-        if (currentAnimation != null && currentAnimation.locked || lockAnimation) return;
-        this.nextAnimation = nextAnimation;
-        if (currentAnimation != animation)
-        {
-            this.OnComplete = OnComplete;
-            this.currentAnimation = animation;
-            sr.sprite = animation.sprites[0];
-        }
-    }
-    protected void CancelAnimation()
-    {
-        currentAnimation = null;
-    }
-    protected void ToggleLockAnimation()
-    {
-        if (lockAnimation == false)
-        {
-            lockAnimation = true;
-            return;
-        }
-        lockAnimation = false;
-    }
-    
-
-
 }
