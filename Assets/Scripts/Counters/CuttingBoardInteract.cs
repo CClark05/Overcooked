@@ -4,12 +4,13 @@ using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class CuttingBoardInteract : BaseCounter, IHasProgressBar
+public class CuttingBoardInteract : BaseCounter, IHasProgressBar, IParticles
 {
     public event EventHandler<IHasProgressBar.OnProgressChangedEventArgs> OnProgressChanged;
 
     [SerializeField] private CuttingRecipeSO[] recipeArray;
     private float cutProgress;
+    public event Action OnPlayParticles;
 
     public override void Interact()
     {
@@ -66,6 +67,7 @@ public class CuttingBoardInteract : BaseCounter, IHasProgressBar
                     GetKitchenObject().DestroySelf();
                     KitchenObject.SpawnKitchenObject(recipe.output, this);
                     GetKitchenObject().transform.localPosition = GetComponent<CounterVisual>().GetFodVisual().localPosition;
+                    OnPlayParticles?.Invoke();
                 }
             }
         }
@@ -89,4 +91,6 @@ public class CuttingBoardInteract : BaseCounter, IHasProgressBar
         }
         return null;
     }
+
+    
 }

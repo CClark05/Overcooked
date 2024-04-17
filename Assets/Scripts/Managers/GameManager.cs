@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     public event EventHandler OnGameResumed;
     public Action OnGameStarted;
     public Action OnGameEnded;
+    public UnityEvent OnCountdownDone;
     public enum States
     {
         WaitingToStart,
@@ -79,6 +81,7 @@ public class GameManager : MonoBehaviour
                     state = States.Playing;
                     gameTimer = gameTimerMax;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
+                    OnCountdownDone?.Invoke();
                     OnGameStarted?.Invoke();
                 }
                 break;

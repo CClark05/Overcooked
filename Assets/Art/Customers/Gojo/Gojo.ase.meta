@@ -889,9 +889,9 @@ ScriptedImporter:
     - name: Gojo_Frame_12
       frameIndex: 12
       cellRect:
-        x: -9
+        x: -10
         y: 2
-        width: 22
+        width: 23
         height: 17
       spriteId: 18d896e0cfc7955498d5df1a945e55e0
     - name: Gojo_Frame_13

@@ -10,8 +10,10 @@ public class PlateVisual : MonoBehaviour
     private FoodRecipeSO[] recipes;
     private PlateKitchenObject plateKitchenObject;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    public Sprite FoodSprite => spriteRenderer.sprite;
+    
     private FoodRecipeSO currentRecipe;
-    private List<GameObject> visualPlaceholders = new List<GameObject>();
+    public readonly List<GameObject> visualPlaceholders = new List<GameObject>();
     private void Awake()
     {
         plateKitchenObject = GetComponent<PlateKitchenObject>();

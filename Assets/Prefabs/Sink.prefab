@@ -213,7 +213,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 0}
-  isBottom: 1
   dirtySinkSprite: {fileID: -322008565, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   sinkSr: {fileID: 9159609166215186806}
   counterSr: {fileID: 570624618100002180}
@@ -348,7 +347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2493423448163395521, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4875214834482742154, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
       propertyPath: m_Pivot.x
@@ -429,6 +428,18 @@ PrefabInstance:
     - target: {fileID: 4875214834482742154, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105725382046130170, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023817643091024512, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: progressBarUI
+      value: 
+      objectReference: {fileID: 457634609210192788}
+    - target: {fileID: 7193277685929754696, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

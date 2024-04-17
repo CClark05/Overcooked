@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1325209352fad4ba943c6a51fc7d9b, type: 3}
+  m_Name: Guts_IdleSide
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -1341525637154674962, guid: c1bebdabc95b0f34fa3b67a48c656c0f, type: 3}
+  - {fileID: -7878397252084743822, guid: c1bebdabc95b0f34fa3b67a48c656c0f, type: 3}
+  frameRate: 1
+  isLooping: 1
+  isLocked: 0
+  lockMovement: 0

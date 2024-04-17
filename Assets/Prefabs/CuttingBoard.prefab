@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1136544037734801541}
   - component: {fileID: 9067266313237714421}
   - component: {fileID: 8177543398523874410}
+  - component: {fileID: 79457959923083943}
   m_Layer: 6
   m_Name: CuttingBoard
   m_TagString: Untagged
@@ -98,7 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 4150290804874443445}
-  isBottom: 0
 --- !u!114 &1136544037734801541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +144,20 @@ MonoBehaviour:
   spriteNumber: 0
   sr: {fileID: 9159609166215186806}
   isEdge: 0
+  foodXPos: 0
+--- !u!114 &79457959923083943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159191192487226740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8eb446422eb4be6a73965f2b97bb81c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystem: {fileID: 4314381443284895075}
 --- !u!1 &8336701160635952592
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,7 +186,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1958983735877673903}
   m_Father: {fileID: 7554815210813961602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8513548800763571946
@@ -247,8 +262,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 678644181
-  m_SortingLayer: -1
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1881950718, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -261,6 +276,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2245534779397925246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4150290804874443445}
+    m_Modifications:
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.118
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846553879936785966, guid: 982401daae0232146934d184a37b9afa, type: 3}
+      propertyPath: m_Name
+      value: Food Done Particles
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 982401daae0232146934d184a37b9afa, type: 3}
+--- !u!4 &1958983735877673903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 289928744348273361, guid: 982401daae0232146934d184a37b9afa, type: 3}
+  m_PrefabInstance: {fileID: 2245534779397925246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &4314381443284895075 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2663455783328738333, guid: 982401daae0232146934d184a37b9afa, type: 3}
+  m_PrefabInstance: {fileID: 2245534779397925246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3575564429133999748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -275,7 +357,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2493423448163395521, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265958500758799405, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 423727243
       objectReference: {fileID: 0}
     - target: {fileID: 4875214834482742154, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
       propertyPath: m_Pivot.x
@@ -356,6 +442,18 @@ PrefabInstance:
     - target: {fileID: 4875214834482742154, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105725382046130170, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023817643091024512, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: progressBarUI
+      value: 
+      objectReference: {fileID: 9067266313237714421}
+    - target: {fileID: 7193277685929754696, guid: 4fa9381791a582c44bea8878e5ae620f, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

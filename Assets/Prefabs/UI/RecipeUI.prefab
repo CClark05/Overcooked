@@ -85,6 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1686662843611483064}
   - component: {fileID: 7212085111508198481}
+  - component: {fileID: 6458567770707673592}
   m_Layer: 5
   m_Name: RecipeUI
   m_TagString: Untagged
@@ -132,6 +133,18 @@ MonoBehaviour:
   foodImage: {fileID: 6483861516173655808}
   background: {fileID: 1706711616676648957}
   progressBar: {fileID: 7770280666596396347}
+--- !u!114 &6458567770707673592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764390505926616447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0b8b501c2743a4b5cbf7c40b716ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4152380326576373815
 GameObject:
   m_ObjectHideFlags: 0

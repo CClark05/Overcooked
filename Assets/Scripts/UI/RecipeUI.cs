@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,6 +14,7 @@ public class RecipeUI : MonoBehaviour
     private List<Image> foodImages = new List<Image>();
     private CustomerData customer;
     private FoodRecipeSO recipeSO;
+    public Action OnAboutToExpire;
     public void CreateRecipeUI(FoodRecipeSO recipe)
     {
         foodImage.sprite = recipe.sprite;
@@ -34,6 +35,11 @@ public class RecipeUI : MonoBehaviour
     private void Update()
     {
         UpdateProgress(customer.GetPatiencePercentage());
+        if (customer.GetPatiencePercentage() > 0.95f)
+        {
+            OnAboutToExpire?.Invoke();
+            OnAboutToExpire = null;
+        }
     }
     public FoodRecipeSO GetRecipeSO()
     {

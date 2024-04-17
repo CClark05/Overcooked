@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c0ad01f1a27d4b8fbb6502ba9c898, type: 3}
   m_Name: LevelData_1
   m_EditorClassIdentifier: 
-  duration: 60
+  duration: 320
   level: 1
   availableRecipes:
   - {fileID: 11400000, guid: 4cc34954a2cef484fa7f7d608dcfc127, type: 2}

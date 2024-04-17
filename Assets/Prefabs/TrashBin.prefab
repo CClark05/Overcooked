@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7127052383016105371}
   - component: {fileID: -4272468398428546913}
   - component: {fileID: 751106861911110567}
+  - component: {fileID: 6768167153105894003}
   m_Layer: 6
   m_Name: TrashBin
   m_TagString: Untagged
@@ -124,6 +125,20 @@ MonoBehaviour:
   spriteNumber: 0
   sr: {fileID: 9159609166215186806}
   isEdge: 0
+  foodXPos: 0
+--- !u!114 &6768167153105894003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159191192487226740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84134e179874951b10fdab4ddf5105a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 9159609166215186806}
 --- !u!1 &8239351207597872657
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,8 +242,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 678644181
-  m_SortingLayer: -1
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -13685495, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

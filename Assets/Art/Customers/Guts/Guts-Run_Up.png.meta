@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 761a3362a55034b4f8862f064e400c4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4785937472325696699
+    second: Guts-Run_Up_0
+  - first:
+      213: 6365462149623014674
+    second: Guts-Run_Up_1
+  - first:
+      213: 4575659798523202027
+    second: Guts-Run_Up_2
+  - first:
+      213: -7766261958020680304
+    second: Guts-Run_Up_3
+  - first:
+      213: -4847617978399970355
+    second: Guts-Run_Up_4
+  - first:
+      213: -8176774503841820084
+    second: Guts-Run_Up_5
+  - first:
+      213: 1124511516733797306
+    second: Guts-Run_Up_6
+  - first:
+      213: 8671703331591638963
+    second: Guts-Run_Up_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guts-Run_Up_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc343b26c01b6240800000000000000
+      internalID: 4785937472325696699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2156973791aa65850800000000000000
+      internalID: 6365462149623014674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9c2080852008f30800000000000000
+      internalID: 4575659798523202027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0953c8785e1b83490800000000000000
+      internalID: -7766261958020680304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb2ca6e12dc9bcb0800000000000000
+      internalID: -4847617978399970355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42990249e2468e80800000000000000
+      internalID: -8176774503841820084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3f0cc34411b9f00800000000000000
+      internalID: 1124511516733797306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Run_Up_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf47154c34185870800000000000000
+      internalID: 8671703331591638963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0f01872d70aa83f4bafd7b51371e8272
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Guts-Run_Up_0: 4785937472325696699
+      Guts-Run_Up_1: 6365462149623014674
+      Guts-Run_Up_2: 4575659798523202027
+      Guts-Run_Up_3: -7766261958020680304
+      Guts-Run_Up_4: -4847617978399970355
+      Guts-Run_Up_5: -8176774503841820084
+      Guts-Run_Up_6: 1124511516733797306
+      Guts-Run_Up_7: 8671703331591638963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

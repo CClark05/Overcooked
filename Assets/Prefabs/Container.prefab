@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 6057535675155799577}
+  isBottom: 0
   ingredientVisual: {fileID: 9028932115400901610}
 --- !u!114 &1170164542413812250
 MonoBehaviour:
@@ -212,6 +213,7 @@ MonoBehaviour:
   spriteNumber: 0
   sr: {fileID: 9159609166215186806}
   isEdge: 0
+  foodXPos: 0
 --- !u!1 &8513548800763571946
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,8 +286,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 678644181
-  m_SortingLayer: -1
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1391220505, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

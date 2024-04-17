@@ -70,7 +70,6 @@ public class CustomerMovement : MonoBehaviour
             case States.GettingFood:
                 //Debug.Log("Getting food");
                 pathfindingMovement.SetTarget(Target.TargetNames.CustomerPickup, () => {
-                    Debug.Log("test");
                     state = States.LeavingStore;
                     OnRecievedFood?.Invoke(recipe);
                 });

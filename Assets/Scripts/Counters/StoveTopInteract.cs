@@ -2,10 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using static CuttingBoardInteract;
 
-public class StoveTopInteract : BaseCounter, IHasProgressBar
+public class StoveTopInteract : BaseCounter, IHasProgressBar, IParticles
 {
     public event EventHandler<OnStateChangedEventArgs> OnStateChanged;
     public class OnStateChangedEventArgs : EventArgs
@@ -19,8 +20,9 @@ public class StoveTopInteract : BaseCounter, IHasProgressBar
     private float cookProgress;
     private float burnProgress;
     private CookingRecipeSO kitchenObjectRecipe;
-
-
+    public event Action OnPlayParticles;
+    public UnityEvent<Color> OnFoodCooked;
+    public UnityEvent OnFoodAboutToBurn;
     public enum States
     {
         Idle,
@@ -62,6 +64,8 @@ public class StoveTopInteract : BaseCounter, IHasProgressBar
                         KitchenObject.SpawnKitchenObject(kitchenObjectRecipe.cooked, this);
                         GetKitchenObject().transform.localPosition = GetComponent<CounterVisual>().GetFodVisual().localPosition;
                         burnProgress = 0;
+                        OnPlayParticles?.Invoke();
+                        OnFoodCooked?.Invoke(new Color(162/255f, 38/255f, 51/255f));
                         state = States.Cooked;
                     }
 
@@ -76,6 +80,11 @@ public class StoveTopInteract : BaseCounter, IHasProgressBar
                     {
                         percentProgress = burnProgress / kitchenObjectRecipe.burnTime
                     });
+                    if (burnProgress > kitchenObjectRecipe.burnTime * 0.7f)
+                    {
+                        OnFoodAboutToBurn?.Invoke();
+                        OnFoodAboutToBurn = null;
+                    }
                     if (burnProgress > kitchenObjectRecipe.burnTime)
                     {
                         GetKitchenObject().DestroySelf();
@@ -120,6 +129,10 @@ public class StoveTopInteract : BaseCounter, IHasProgressBar
                 {
                     percentProgress = 0
                 });
+                OnStateChanged?.Invoke(this, new StoveTopInteract.OnStateChangedEventArgs
+                {
+                    state = States.Idle
+                });
                 GetKitchenObject().SetParent(player);
                 state = States.Idle;
             }
@@ -133,6 +146,10 @@ public class StoveTopInteract : BaseCounter, IHasProgressBar
                         OnProgressChanged?.Invoke(this, new IHasProgressBar.OnProgressChangedEventArgs
                         {
                             percentProgress = 0
+                        });
+                        OnStateChanged?.Invoke(this, new StoveTopInteract.OnStateChangedEventArgs
+                        {
+                            state = States.Idle
                         });
                         state = States.Idle;
                     }
@@ -161,4 +178,5 @@ public class StoveTopInteract : BaseCounter, IHasProgressBar
         return null;
     }
 
+    
 }

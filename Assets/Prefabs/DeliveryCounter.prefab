@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodVisual: {fileID: 6104762782757144857}
-  isBottom: 0
 --- !u!114 &8668841814488665286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4955,9 +4954,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -5104,8 +5103,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00069999695, y: 0.120599985, z: 0}
-    m_Extent: {x: 0.9205, y: 0.796, z: 0}
+    m_Center: {x: -0.0046499968, y: 0.123300016, z: 0}
+    m_Extent: {x: 0.92185, y: 0.7956, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5220,8 +5219,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 678644181
-  m_SortingLayer: -1
+  m_SortingLayerID: -1446079737
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 93690188, guid: 083d668037c9e634abf31f6f887bda0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

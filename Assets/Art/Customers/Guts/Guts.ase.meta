@@ -1,0 +1,1087 @@
+fileFormatVersion: 2
+guid: a3622e7c115ff9247af7d32939da7667
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 0
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 0
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638481113520640020
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Guts_Frame_0
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 173
+      width: 13
+      height: 15
+    spriteID: 5d482f73c63ed4f4ebb9ee724c665781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 173}
+  - name: Guts_Frame_1
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 29
+      width: 13
+      height: 16
+    spriteID: 68dfb95c5207419449101f2517ba52a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 29}
+  - name: Guts_Frame_2
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 196
+      width: 13
+      height: 15
+    spriteID: ec599476b2e58aa419d2036095c37ff0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 196}
+  - name: Guts_Frame_3
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 13
+      height: 17
+    spriteID: 29afebcdce87248428af76f0eaa6981f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Guts_Frame_4
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 29
+      width: 13
+      height: 17
+    spriteID: defef9f68e8768442bedb6fbfdcd7248
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 29}
+  - name: Guts_Frame_5
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 54
+      width: 13
+      height: 17
+    spriteID: f01071df0301e9645ab154af553961cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 54}
+  - name: Guts_Frame_6
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 219
+      width: 13
+      height: 15
+    spriteID: 42996f18238b93440abfd34390c1c891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 219}
+  - name: Guts_Frame_7
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 53
+      width: 13
+      height: 16
+    spriteID: 480396818d83b9244b6d5a7da8ded4ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 53}
+  - name: Guts_Frame_8
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 4
+      width: 13
+      height: 15
+    spriteID: 995e60d05987f6240b440a260805312c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 4}
+  - name: Guts_Frame_9
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 27
+      width: 13
+      height: 15
+    spriteID: 8127568c48009a144bbc2b93956d2633
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 27}
+  - name: Guts_Frame_10
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 211
+      width: 13
+      height: 14
+    spriteID: 97cefdda6125abf49b7ff57051b7a30c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 211}
+  - name: Guts_Frame_11
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 50
+      width: 13
+      height: 15
+    spriteID: 44a575ce7ac305d4198678672a0f801a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 50}
+  - name: Guts_Frame_12
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 77
+      width: 13
+      height: 16
+    spriteID: 333ec45e8e1f8464d93c22e2fbaf6789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 77}
+  - name: Guts_Frame_13
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 73
+      width: 13
+      height: 15
+    spriteID: 899e2a5e84890994f9ad75dbb6bee919
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 73}
+  - name: Guts_Frame_14
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 233
+      width: 13
+      height: 14
+    spriteID: 0537da34e4e51d14c935f753bdb87128
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 233}
+  - name: Guts_Frame_15
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 96
+      width: 13
+      height: 15
+    spriteID: 45f391dbfa3db99489b79acd5e5f4547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 96}
+  - name: Guts_Frame_16
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 101
+      width: 13
+      height: 16
+    spriteID: 67cf4f65dd1fb0143a764f0c5d190485
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 101}
+  - name: Guts_Frame_17
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 119
+      width: 13
+      height: 15
+    spriteID: 6925a529e2e2f1241bafe66e948b5d54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 119}
+  - name: Guts_Frame_18
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 13
+      height: 14
+    spriteID: 9d8d4665491430849b2c771e4ed67298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 4}
+  - name: Guts_Frame_19
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 142
+      width: 13
+      height: 15
+    spriteID: d99a0760280e9044b85e16e24f1b46ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 142}
+  - name: Guts_Frame_20
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 125
+      width: 13
+      height: 16
+    spriteID: 134c8e8b90861a24cadea0f73766d6b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 125}
+  - name: Guts_Frame_21
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 165
+      width: 13
+      height: 15
+    spriteID: 7981723c7193f1049a2c2cafc057deb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 165}
+  - name: Guts_Frame_22
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 26
+      width: 13
+      height: 14
+    spriteID: bf5e0aa1a8caa4d489c095aa23222a4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 26}
+  - name: Guts_Frame_23
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 188
+      width: 13
+      height: 15
+    spriteID: db82b8389434d4f44bfe7881b390df44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 188}
+  - name: Guts_Frame_24
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 149
+      width: 13
+      height: 16
+    spriteID: 7009788b229ba564eac94ce10d0271fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 149}
+  - name: Guts_Frame_25
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 13
+      height: 17
+    spriteID: 0625c568afc98994991cbb9f04964e49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: Guts_Frame_26
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 13
+      height: 17
+    spriteID: 5210634172b80f84880f6ce2da555914
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: Guts_Frame_27
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 129
+      width: 13
+      height: 17
+    spriteID: 4f630c7551240b141bb07607bd75004e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 129}
+  - name: Guts_Frame_28
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 154
+      width: 13
+      height: 17
+    spriteID: 834ad2be91ce389409d1baddf373ade3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 154}
+  - name: Guts_Frame_29
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 179
+      width: 13
+      height: 17
+    spriteID: 3441749463b56634b8808976c5334ad5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 179}
+  - name: Guts_Frame_30
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 13
+      height: 17
+    spriteID: 384164c4616c70241a0382ae2d4e69c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: Guts_Frame_31
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 229
+      width: 13
+      height: 17
+    spriteID: e45d3d311bc083b439bf62ff1d764cfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 229}
+  - name: Guts_Frame_32
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 4
+      width: 13
+      height: 17
+    spriteID: ce5eeb2456412024eb57456433bf2d11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 832955873
+    name: Guts
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Guts_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 5d482f73c63ed4f4ebb9ee724c665781
+    - name: Guts_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 16
+      spriteId: 68dfb95c5207419449101f2517ba52a3
+    - name: Guts_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: ec599476b2e58aa419d2036095c37ff0
+    - name: Guts_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 17
+      spriteId: 29afebcdce87248428af76f0eaa6981f
+    - name: Guts_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 2
+        width: 13
+        height: 17
+      spriteId: defef9f68e8768442bedb6fbfdcd7248
+    - name: Guts_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 17
+      spriteId: f01071df0301e9645ab154af553961cb
+    - name: Guts_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 42996f18238b93440abfd34390c1c891
+    - name: Guts_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 16
+      spriteId: 480396818d83b9244b6d5a7da8ded4ab
+    - name: Guts_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 995e60d05987f6240b440a260805312c
+    - name: Guts_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 8127568c48009a144bbc2b93956d2633
+    - name: Guts_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 14
+      spriteId: 97cefdda6125abf49b7ff57051b7a30c
+    - name: Guts_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 44a575ce7ac305d4198678672a0f801a
+    - name: Guts_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 16
+      spriteId: 333ec45e8e1f8464d93c22e2fbaf6789
+    - name: Guts_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 899e2a5e84890994f9ad75dbb6bee919
+    - name: Guts_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 14
+      spriteId: 0537da34e4e51d14c935f753bdb87128
+    - name: Guts_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 45f391dbfa3db99489b79acd5e5f4547
+    - name: Guts_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 16
+      spriteId: 67cf4f65dd1fb0143a764f0c5d190485
+    - name: Guts_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 6925a529e2e2f1241bafe66e948b5d54
+    - name: Guts_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 14
+      spriteId: 9d8d4665491430849b2c771e4ed67298
+    - name: Guts_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: d99a0760280e9044b85e16e24f1b46ec
+    - name: Guts_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 16
+      spriteId: 134c8e8b90861a24cadea0f73766d6b4
+    - name: Guts_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: 7981723c7193f1049a2c2cafc057deb6
+    - name: Guts_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 14
+      spriteId: bf5e0aa1a8caa4d489c095aa23222a4b
+    - name: Guts_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 15
+      spriteId: db82b8389434d4f44bfe7881b390df44
+    - name: Guts_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 3
+        width: 13
+        height: 16
+      spriteId: 7009788b229ba564eac94ce10d0271fd
+    - name: Guts_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 17
+      spriteId: 0625c568afc98994991cbb9f04964e49
+    - name: Guts_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 2
+        y: 0
+        width: 13
+        height: 17
+      spriteId: 5210634172b80f84880f6ce2da555914
+    - name: Guts_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 17
+      spriteId: 4f630c7551240b141bb07607bd75004e
+    - name: Guts_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 2
+        y: 2
+        width: 13
+        height: 17
+      spriteId: 834ad2be91ce389409d1baddf373ade3
+    - name: Guts_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 17
+      spriteId: 3441749463b56634b8808976c5334ad5
+    - name: Guts_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 2
+        y: 0
+        width: 13
+        height: 17
+      spriteId: 384164c4616c70241a0382ae2d4e69c4
+    - name: Guts_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 17
+      spriteId: e45d3d311bc083b439bf62ff1d764cfa
+    - name: Guts_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 2
+        y: 2
+        width: 13
+        height: 17
+      spriteId: ce5eeb2456412024eb57456433bf2d11
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 18, y: 21}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,8 @@ public class ProgressBarUI : MonoBehaviour
 {
     private IHasProgressBar Counter;
     [SerializeField] private Image progressBar;
+    public Action OnHideBar;
+    public Action OnShowBar;
     private void Awake()
     {
         Counter = GetComponent<IHasProgressBar>();
@@ -14,7 +17,6 @@ public class ProgressBarUI : MonoBehaviour
     private void Start()
     {
         Counter.OnProgressChanged += IHasProgress_OnProgressChanged;
-        Hide();
     }
 
     private void IHasProgress_OnProgressChanged(object sender, IHasProgressBar.OnProgressChangedEventArgs e)
@@ -22,19 +24,16 @@ public class ProgressBarUI : MonoBehaviour
         progressBar.fillAmount = e.percentProgress;
         if(e.percentProgress == 0 || e.percentProgress == 1)
         {
-            Hide();
+            OnHideBar?.Invoke();
         }
         else
         {
-            Show();
+            OnShowBar?.Invoke();
         }
     }
-    private void Show()
+
+    public void ChangeColor(Color color)
     {
-        progressBar.rectTransform.parent.gameObject.SetActive(true);
-    }
-    private  void Hide()
-    {
-        progressBar.rectTransform.parent.gameObject.SetActive(false);
+        progressBar.color = color;
     }
 }

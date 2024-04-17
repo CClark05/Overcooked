@@ -794,265 +794,265 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 16
       spriteId: 7536ad670b48f6c4e92833cf0fb201e2
     - name: Customers_Frame_1
       frameIndex: 1
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 17
       spriteId: be6192961d1e2cd48b0f14ffdfa634e4
     - name: Customers_Frame_2
       frameIndex: 2
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 16
       spriteId: afa90cfcc7b2c924ab35422b3ce527db
     - name: Customers_Frame_3
       frameIndex: 3
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 16
+        y: 1
+        width: 88
+        height: 18
       spriteId: 27a32f4cb3225a542aeade93d2dbf724
     - name: Customers_Frame_4
       frameIndex: 4
       cellRect:
         x: 5
         y: 2
-        width: 39
-        height: 17
+        width: 88
+        height: 18
       spriteId: 0975cf0dc191a6043b24351a52614d0d
     - name: Customers_Frame_5
       frameIndex: 5
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 16
+        y: 1
+        width: 88
+        height: 18
       spriteId: a47ce653e3b869842aae911f4f3c6325
     - name: Customers_Frame_6
       frameIndex: 6
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 16
       spriteId: 7b98876f214ab234ca48b4ad405c894e
     - name: Customers_Frame_7
       frameIndex: 7
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 17
       spriteId: f11138e64f08ff143b0e66038547d520
     - name: Customers_Frame_8
       frameIndex: 8
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 16
       spriteId: cb126c4392a414f4badecbf3c5e8171f
     - name: Customers_Frame_9
       frameIndex: 9
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 16
       spriteId: 5a5b0f95e3a1b0446a5ebc84551c47f2
     - name: Customers_Frame_10
       frameIndex: 10
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 15
       spriteId: 910c244b6d626ba4db9c1a27f294c5da
     - name: Customers_Frame_11
       frameIndex: 11
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 16
       spriteId: 1443056625b617c4da57c2fd2d81e4f2
     - name: Customers_Frame_12
       frameIndex: 12
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 17
       spriteId: d2c726738aa2bc24dab9767b2cd13111
     - name: Customers_Frame_13
       frameIndex: 13
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 16
       spriteId: 2fc7e84cac8ca7b4a995c9e9eeb384c1
     - name: Customers_Frame_14
       frameIndex: 14
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 15
       spriteId: bbe28a3037a8e5342b9d1ae63984ce89
     - name: Customers_Frame_15
       frameIndex: 15
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 16
       spriteId: 6e198ac7c89247e468a9f48f55e82cd8
     - name: Customers_Frame_16
       frameIndex: 16
       cellRect:
         x: 5
-        y: 2
-        width: 39
+        y: 3
+        width: 88
         height: 17
       spriteId: 5fc10ceb1c6591d4cb21c0a6859ce7eb
     - name: Customers_Frame_17
       frameIndex: 17
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 16
       spriteId: 92df17b8616a12042b392fa589fe2624
     - name: Customers_Frame_18
       frameIndex: 18
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 15
       spriteId: a4e184d6ac592034489f141df0511385
     - name: Customers_Frame_19
       frameIndex: 19
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 16
       spriteId: 524000979c2636a42b633dccee9418cb
     - name: Customers_Frame_20
       frameIndex: 20
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 17
       spriteId: cadfb221734d1c147917eeb8b0a33012
     - name: Customers_Frame_21
       frameIndex: 21
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 16
       spriteId: c1c2b21c0f611494c9bd8a9442cfad01
     - name: Customers_Frame_22
       frameIndex: 22
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 15
       spriteId: 79065e7adfb21284f933087914e95d93
     - name: Customers_Frame_23
       frameIndex: 23
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 16
       spriteId: 30720c24543ebc84dac32b27b3e9551a
     - name: Customers_Frame_24
       frameIndex: 24
       cellRect:
         x: 5
-        y: 2
-        width: 38
+        y: 3
+        width: 88
         height: 17
       spriteId: 6af3ce7862ce9dc4892f114ad268b91d
     - name: Customers_Frame_25
       frameIndex: 25
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 16
+        y: 1
+        width: 88
+        height: 18
       spriteId: c8f19e13af43fc34aba7694aa81b99ea
     - name: Customers_Frame_26
       frameIndex: 26
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 15
+        y: 0
+        width: 88
+        height: 18
       spriteId: 2c48712c8b109984ba317d65838e69b8
     - name: Customers_Frame_27
       frameIndex: 27
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 16
+        y: 1
+        width: 88
+        height: 18
       spriteId: 53534abe4adc13946889969d67f66a58
     - name: Customers_Frame_28
       frameIndex: 28
       cellRect:
         x: 5
         y: 2
-        width: 39
-        height: 17
+        width: 88
+        height: 18
       spriteId: 3a580144bc0a5b1488db85f73135ce51
     - name: Customers_Frame_29
       frameIndex: 29
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 16
+        y: 1
+        width: 88
+        height: 18
       spriteId: 5b73062eea538a24d87c23150d446a4d
     - name: Customers_Frame_30
       frameIndex: 30
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 15
+        y: 0
+        width: 88
+        height: 18
       spriteId: e184ac01150210347a492674bdb8a3c9
     - name: Customers_Frame_31
       frameIndex: 31
       cellRect:
         x: 5
-        y: 2
-        width: 39
-        height: 16
+        y: 1
+        width: 88
+        height: 18
       spriteId: 824689a087e0fba4c862575975432808
     - name: Customers_Frame_32
       frameIndex: 32
       cellRect:
         x: 5
         y: 2
-        width: 39
-        height: 17
+        width: 88
+        height: 18
       spriteId: c2d9e8af5284d3b45ac397b11202f668
     linkedCells: []
     parentIndex: -1
@@ -1084,4 +1084,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 46, y: 20}
+  canvasSize: {x: 103, y: 21}

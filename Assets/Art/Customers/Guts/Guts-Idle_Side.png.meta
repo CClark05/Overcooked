@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 783e4ab4b993fc54b88745c5f239a273
+guid: c1bebdabc95b0f34fa3b67a48c656c0f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6361896031170861429
-    second: CustomerSprites_0
+      213: -1341525637154674962
+    second: Guts-Idle_Side_0
+  - first:
+      213: -7878397252084743822
+    second: Guts-Idle_Side_1
+  - first:
+      213: 3555393925658252034
+    second: Guts-Idle_Side_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,22 +106,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CustomerSprites_0
+      name: Guts-Idle_Side_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b86e714344106b7a0800000000000000
-      internalID: -6361896031170861429
+      spriteID: ee6e05c6a81f16de0800000000000000
+      internalID: -1341525637154674962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts-Idle_Side_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2714316d07f4aa290800000000000000
+      internalID: -7878397252084743822
       vertices: []
       indices: 
       edges: []
@@ -123,7 +150,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f44554b966a841648a5ec7cabc1f4498
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +158,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CustomerSprites_0: -6361896031170861429
+      Guts-Idle_Side_0: -1341525637154674962
+      Guts-Idle_Side_1: -7878397252084743822
+      Guts-Idle_Side_2: 3555393925658252034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

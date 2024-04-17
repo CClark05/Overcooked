@@ -24,8 +24,7 @@ public class CustomerData : MonoBehaviour
     private bool hasFood;
     private float _patienceLevel;
     private float minPatience = 10; 
-    private float maxPatience = 20; 
-    private float eatTime = 3;
+    private float maxPatience = 12; 
     private float totalPatience;
     public bool hasUI;
     private void Awake()
@@ -97,10 +96,6 @@ public class CustomerData : MonoBehaviour
     public Moods GetMood()
     {
         return mood;
-    }
-    public float GetEatTime()
-    {
-        return eatTime;
     }
     private void AddMood()
     {
