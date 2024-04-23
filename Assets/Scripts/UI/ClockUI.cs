@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class ClockUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private Sprite[] clockSprites;
     [SerializeField] private Image clockImage;
+    public Action OnTimeLow;
     private void Start()
     {
         timeText.text = FormatTime(Mathf.RoundToInt(GameManager.Instance.GetGameTimeMax()));
@@ -21,6 +23,11 @@ public class ClockUI : MonoBehaviour
         if (GameManager.Instance.GetState() == GameManager.States.Playing)
         {
             timeText.text = FormatTime(Mathf.RoundToInt(GameManager.Instance.gameTimer));
+            if (GameManager.Instance.gameTimer <= 10)
+            {
+                OnTimeLow?.Invoke();
+                OnTimeLow = null;
+            }
         }
     
     }

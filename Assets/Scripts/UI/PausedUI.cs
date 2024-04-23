@@ -8,18 +8,24 @@ using UnityEngine.UI;
 
 public class PausedUI : MonoBehaviour
 {
-    [SerializeField] private Button menuButton;
-    [SerializeField] private Button resumeButton;
+    [SerializeField] private Button_Base menuButton;
+    [SerializeField] private Button_Base resumeButton;
+    [SerializeField] private Button_Base quitButton;
     private void Awake()
     {
-        menuButton.onClick.AddListener(() =>
+        menuButton.OnClick.AddListener(() =>
         {
             Time.timeScale = 1;
-            SceneLoader.LoadScene(SceneLoader.Scenes.MainMenu);
+            SceneLoader.Instance.LoadScene(SceneLoader.Scenes.MainMenu);
         });
-        resumeButton.onClick.AddListener(() => 
+        resumeButton.OnClick.AddListener(() => 
         {
             GameManager.Instance.TogglePause();
+        });
+        quitButton.OnClick.AddListener(() =>
+        {
+            Debug.Log("Quit");
+            Application.Quit();
         });
     }
 private void Start()

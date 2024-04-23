@@ -24,7 +24,7 @@ public class SettingsUI : MonoBehaviour
         };
         backButton.onClick.AddListener(() =>
         {
-            SceneLoader.LoadScene(SceneLoader.Scenes.MainMenu);
+            SceneLoader.Instance.LoadScene(SceneLoader.Scenes.MainMenu);
         });
 
 

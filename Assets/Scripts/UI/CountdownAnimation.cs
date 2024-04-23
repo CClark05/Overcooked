@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Internal.Builders;
 using TMPro;
 using UnityEngine;
 
@@ -21,7 +22,7 @@ public class CountdownAnimation : MonoBehaviour
     {
         GetComponent<RectTransform>().localPosition = originalPosition;
         GetComponent<RectTransform>().localScale = Vector3.one;
-        LeanTween.cancel(gameObject);
+        numberText.color = new Color(1, 1, 1, 0);
         float moveTime = 0.35f;
         float scaleTime = 0.4f;
         LeanTween.value(gameObject, f => numberText.color = new Color(1, 1, 1, f), 0, 1, 0.2f);

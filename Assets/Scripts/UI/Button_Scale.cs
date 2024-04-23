@@ -10,11 +10,11 @@ public class Button_Scale : Button_Base
 
     public override void OnMouseEnter()
     {
-        LeanTween.scale(gameObject, new Vector3(scaleFactor, scaleFactor, scaleFactor), animationDuration);
+        LeanTween.scale(gameObject, new Vector3(scaleFactor, scaleFactor, scaleFactor), animationDuration).setIgnoreTimeScale(true);
     }
     public override void OnMouseLeave()
     {
-        LeanTween.scale(gameObject, new Vector3(1, 1, 1), animationDuration);
+        LeanTween.scale(gameObject, new Vector3(1, 1, 1), animationDuration).setIgnoreTimeScale(true);
     }
 }
     

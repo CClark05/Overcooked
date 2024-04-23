@@ -14,7 +14,7 @@ public class MainMenuUI : MonoBehaviour
     {
         playButton.onClick.AddListener(() =>
         {
-            SceneLoader.LoadScene(SceneLoader.Scenes.Game);
+            SceneLoader.Instance.LoadScene(SceneLoader.Scenes.Game);
         });
         quitButton.onClick.AddListener(() =>
         {
@@ -22,7 +22,7 @@ public class MainMenuUI : MonoBehaviour
         });
         optionsButton.onClick.AddListener(() =>
         {
-            SceneLoader.LoadScene(SceneLoader.Scenes.Options);
+            SceneLoader.Instance.LoadScene(SceneLoader.Scenes.Options);
         });
 
     }
