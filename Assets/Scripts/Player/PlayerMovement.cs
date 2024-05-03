@@ -2,9 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
+using NUnit.Framework;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour, IMoveable
+public class PlayerMovement : MonoBehaviour, IMoveable, ITeleportable
 { 
     [SerializeField] private float moveSpeed;
     private float _moveSpeed;
@@ -17,10 +18,11 @@ public class PlayerMovement : MonoBehaviour, IMoveable
     public bool isDashing { get; private set; }
 
     public Vector2 MovementDirection => direction;
-
+    
     public Action<Vector2> OnDash;
     private Vector3 direction;
     private Rigidbody2D rb;
+    
 
     private void Awake()
     {
@@ -121,5 +123,14 @@ public class PlayerMovement : MonoBehaviour, IMoveable
         moveSpeed = _moveSpeed;
         dashSpeed = _dashSpeed;
     }
+
+    public void Teleport(Vector2 position, Action OnTeleported)
+    {
+        transform.position = position;
+        OnTeleported?.Invoke();
+    }
+
+    public void LockPosition() => LockMovement();
+    public void UnLockPosition() => UnLockMovement();
 
 }

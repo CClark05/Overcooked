@@ -16,6 +16,8 @@ public class GameOverUI : MonoBehaviour
     [SerializeField] private Image star1;
     [SerializeField] private Image star2;
     [SerializeField] private Image star3;
+    [SerializeField] private Button_Scale replayButton;
+    [SerializeField] private Button_Scale continueButton;
     private TextMeshProUGUI starScore1;
     private TextMeshProUGUI starScore2;
     private TextMeshProUGUI starScore3;
@@ -42,6 +44,8 @@ public class GameOverUI : MonoBehaviour
         starScore1.text = levelData.starScore_1.ToString();
         starScore2.text = levelData.starScore_2.ToString();
         starScore3.text = levelData.starScore_3.ToString();
+        continueButton.OnClick.AddListener((() => SceneLoader.Instance.LoadScene(SceneLoader.Scenes.LevelSelect)));
+        replayButton.OnClick.AddListener((() => SceneLoader.Instance.ReloadCurrentScene()));
         gameObject.SetActive(false);
     }
 

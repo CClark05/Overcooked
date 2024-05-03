@@ -1,12 +1,11 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Image))]
 public abstract class Button_Base : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public abstract void OnMouseEnter();
@@ -15,6 +14,7 @@ public abstract class Button_Base : MonoBehaviour, IPointerEnterHandler, IPointe
     protected RectTransform rectTransform;
     private Image image;
     private Color originalColor;
+    [SerializeField] private float clickDelay;
 
     protected void OnEnable()
     {
@@ -30,13 +30,19 @@ public abstract class Button_Base : MonoBehaviour, IPointerEnterHandler, IPointe
     public void OnPointerEnter(PointerEventData eventData) => OnMouseEnter();
     public void OnPointerExit(PointerEventData eventData) => OnMouseLeave();
 
-    protected virtual void OnClickAnimation()
+    protected virtual void OnMouseClick()
     {
         image.color = new Color(0.8f, 0.8f, 0.8f);
     }
     public void OnPointerClick(PointerEventData eventData)
     {
-        OnClickAnimation();
+        StartCoroutine(ClickDelay());
+    }
+
+    private IEnumerator ClickDelay()
+    {
+        OnMouseClick();
+        yield return new WaitForSecondsRealtime(clickDelay);
         OnClick?.Invoke();
     }
     

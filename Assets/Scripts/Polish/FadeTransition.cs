@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class FadeTransition : MonoBehaviour, ITransition
 {
-    private float fadeTime = 0.5f;
+    [SerializeField] float fadeTime = 0.4f;
     private CanvasGroup canvasGroup;
 
     private void OnEnable()

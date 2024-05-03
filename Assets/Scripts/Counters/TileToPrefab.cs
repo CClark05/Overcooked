@@ -10,33 +10,19 @@ public class TileToPrefab : MonoBehaviour
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private bool isEdge;
     [SerializeField] private float foodXPos;
-    public void SpriteNumber(int num)
-    {
-        spriteNumber = num;
-    }
-    public void IsEdge(bool isEdge)
-    {
-        this.isEdge = isEdge;
-    }
-
-    public void FoodXPos(float xPos)
-    {
-        foodXPos = xPos;
-    }
+    [SerializeField] private bool addShadow;
     
-    private void Awake()
-    {
-        sr.sprite = TileSprites.Instance.GetSprites()[spriteNumber];
-    }
+    public void SpriteNumber(int num) => spriteNumber = num;
+    public void IsEdge(bool isEdge) => this.isEdge = isEdge;
 
-    public bool GetIsEdge()
-    {
-        return isEdge;
-    }
+    public void FoodXPos(float xPos) => foodXPos = xPos;
 
-    public float GetFoodXPos()
-    {
-        return foodXPos;
-    }
+    private void Awake() => sr.sprite = TileSprites.Instance.GetSprites()[spriteNumber];
 
+    public bool GetIsEdge() => isEdge;
+
+    public float GetFoodXPos() => foodXPos;
+    public bool GetAddShaodw() => addShadow;
+
+    public void AddShadow(bool addShadow) => this.addShadow = addShadow;
 }

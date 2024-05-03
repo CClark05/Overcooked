@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using CameraShake;
 using SaveSystem;
+using SaveSystem.New;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -22,10 +23,11 @@ public class GameOverUIAnimation : MonoBehaviour
             {
                 LeanTween.moveY(panel.GetComponent<RectTransform>(), -34, 0.7f).setEase(LeanTweenType.easeOutSine).setOnComplete(() => GoldStarAnimation(() =>
                 {
-                    if (SaveManager.Instance.HasNewHighScore)
+                    if (NewSaveManager.Instance.HasNewHighScore)
                     {
                         NewHighScoreTextAnimation();
                     };
+                    
                 }));
 
             });

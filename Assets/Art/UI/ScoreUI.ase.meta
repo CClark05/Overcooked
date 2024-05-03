@@ -182,7 +182,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: ScoreUI_2
+  - name: Button_Unpressed
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -254,6 +254,26 @@ ScriptedImporter:
       width: 13
       height: 14
     spriteID: 4cee814b4cf96ed4b9b7636e77d0add2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Button_Pressed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 90
+      width: 87
+      height: 34
+    spriteID: fe3f8f39379e6c74b8c806b1824ed529
     spriteBone: []
     spriteOutline: []
     vertices: []

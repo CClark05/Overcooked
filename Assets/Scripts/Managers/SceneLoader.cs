@@ -25,7 +25,6 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         transition.GetComponent<ITransition>().OnEnter();
-        Debug.Log("test");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -42,27 +41,33 @@ public class SceneLoader : MonoBehaviour
     public enum Scenes
     {
         MainMenu,
-        Game,
-        Options
+        Options,
+        LevelSelect,
+        Level1,
     }
  
     public void LoadScene(Scenes scene)
     {
-        /**
-        if (transition == null)
-        {
-            SceneManager.LoadScene(scene.ToString());
-            Debug.Log("No Scene Transition found");
-            return;
-        }
-        transition.GetComponent<ITransition>().OnExit( ()=> SceneManager.LoadSceneAsync(scene.ToString()));
-        */
         StartCoroutine(LoadSceneAsync(scene));
+    }
+
+    public void ReloadCurrentScene()
+    {
+        StartCoroutine(LoadSceneAsync(SceneManager.GetActiveScene().name));
     }
 
     private IEnumerator LoadSceneAsync(Scenes sceneName)
     {
         var scene = SceneManager.LoadSceneAsync(sceneName.ToString());
+        scene.allowSceneActivation = false;
+        while (scene.progress < 0.9f) yield return null;
+        transition.GetComponent<ITransition>().OnExit(() => scene.allowSceneActivation = true);
+    }
+    
+    private IEnumerator LoadSceneAsync(String sceneName)
+    {
+        Debug.Log("test");
+        var scene = SceneManager.LoadSceneAsync(sceneName);
         scene.allowSceneActivation = false;
         while (scene.progress < 0.9f) yield return null;
         transition.GetComponent<ITransition>().OnExit(() => scene.allowSceneActivation = true);

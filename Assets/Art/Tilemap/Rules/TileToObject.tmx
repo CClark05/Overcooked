@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="40">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="42">
  <properties>
   <property name="DeleteTiles" type="bool" value="true"/>
  </properties>
@@ -35,7 +35,7 @@
  </tileset>
  <layer id="1" name="input_ground" width="30" height="20" opacity="0.58">
   <data encoding="base64">
-   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAMAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAPAAAAAAAAABAAAAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAAAAAAAANAAAAAAAAAA1AAAAAAAAADYAAAAAAAAANwAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAnAAAAAAAAACgAAAAAAAAAKQAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA/AAAAAAAAAEAAAAAAAAAAQwAAAAAAAABEAAAAAAAAADoAAAA7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAMAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAPAAAAAAAAABAAAAAAAAAAEQAAAAAAAAASAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAAAAAAAANAAAAAAAAAA1AAAAAAAAADYAAAAAAAAANwAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAnAAAAAAAAACgAAAAAAAAAKQAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA/AAAAAAAAAEAAAAAAAAAAQwAAAAAAAABEAAAAAAAAADoAAAA7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   </data>
  </layer>
  <objectgroup id="8" name="output_DeliveryCounter">
@@ -74,96 +74,112 @@
  <objectgroup id="2" name="output_EmptyCounter">
   <object id="1" name="EmptyCounter" type="EmptyCounter" x="16" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="1"/>
    </properties>
   </object>
   <object id="2" name="EmptyCounter" type="EmptyCounter" x="48" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="2"/>
    </properties>
   </object>
   <object id="3" name="EmptyCounter" type="EmptyCounter" x="80" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="3"/>
    </properties>
   </object>
   <object id="4" name="EmptyCounter" type="EmptyCounter" x="112" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="4"/>
    </properties>
   </object>
   <object id="5" name="EmptyCounter" type="EmptyCounter" x="144" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="5"/>
    </properties>
   </object>
   <object id="6" name="EmptyCounter" type="EmptyCounter" x="176" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="6"/>
    </properties>
   </object>
   <object id="7" name="EmptyCounter" type="EmptyCounter" x="208" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="7"/>
    </properties>
   </object>
   <object id="8" name="EmptyCounter" type="EmptyCounter" x="240" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="8"/>
    </properties>
   </object>
   <object id="9" name="EmptyCounter" type="EmptyCounter" x="272" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="9"/>
    </properties>
   </object>
   <object id="10" name="EmptyCounter" type="EmptyCounter" x="304" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="10"/>
    </properties>
   </object>
   <object id="11" name="EmptyCounter" type="EmptyCounter" x="336" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="11"/>
    </properties>
   </object>
   <object id="12" name="EmptyCounter" type="EmptyCounter" x="368" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="12"/>
    </properties>
   </object>
   <object id="13" name="EmptyCounter" type="EmptyCounter" x="400" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="13"/>
    </properties>
   </object>
   <object id="14" name="EmptyCounter" type="EmptyCounter" x="432" y="16" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="14"/>
    </properties>
   </object>
   <object id="15" name="EmptyCounter" type="EmptyCounter" x="48" y="48" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="16"/>
    </properties>
   </object>
   <object id="16" name="EmptyCounter" type="EmptyCounter" x="16" y="48" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="15"/>
    </properties>
@@ -172,6 +188,7 @@
  <objectgroup id="3" name="output_StoveTop">
   <object id="17" name="StoveTop" type="StoveTop" x="16" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="0"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="45"/>
@@ -179,6 +196,7 @@
   </object>
   <object id="19" name="StoveTop" type="StoveTop" x="48" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="0"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="46"/>
@@ -186,6 +204,7 @@
   </object>
   <object id="20" name="StoveTop" type="StoveTop" x="80" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="0"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="47"/>
@@ -193,6 +212,7 @@
   </object>
   <object id="21" name="StoveTop" type="StoveTop" x="112" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="0"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="48"/>
@@ -200,6 +220,7 @@
   </object>
   <object id="22" name="StoveTop" type="StoveTop" x="144" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="-0.0624"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="49"/>
@@ -207,6 +228,7 @@
   </object>
   <object id="23" name="StoveTop" type="StoveTop" x="176" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="-0.124"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="50"/>
@@ -214,6 +236,7 @@
   </object>
   <object id="24" name="StoveTop" type="StoveTop" x="208" y="80" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="-0.063"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="51"/>
@@ -223,6 +246,7 @@
  <objectgroup id="4" name="output_CuttingBoard">
   <object id="25" name="CuttingBoard" type="CuttingBoard" x="16" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="0.06"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="31"/>
@@ -230,30 +254,35 @@
   </object>
   <object id="26" name="CuttingBoard" type="CuttingBoard" x="48" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="32"/>
    </properties>
   </object>
   <object id="27" name="CuttingBoard" type="CuttingBoard" x="80" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="false"/>
     <property name="SpriteNumber" type="int" value="33"/>
    </properties>
   </object>
   <object id="28" name="CuttingBoard" type="CuttingBoard" x="112" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="34"/>
    </properties>
   </object>
   <object id="29" name="CuttingBoard" type="CuttingBoard" x="144" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="35"/>
    </properties>
   </object>
   <object id="30" name="CuttingBoard" type="CuttingBoard" x="176" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="FoodXPos" type="float" value="-0.06"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="36"/>
@@ -261,8 +290,25 @@
   </object>
   <object id="31" name="CuttingBoard" type="CuttingBoard" x="208" y="112" width="16" height="16">
    <properties>
+    <property name="AddShadow" type="bool" value="false"/>
     <property name="IsEdge" type="bool" value="true"/>
     <property name="SpriteNumber" type="int" value="37"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="output_Container">
+  <object id="40" name="Container" type="Container" x="16" y="176" width="16" height="16">
+   <properties>
+    <property name="AddShadow" type="bool" value="false"/>
+    <property name="IsEdge" type="bool" value="true"/>
+    <property name="SpriteNumber" type="int" value="17"/>
+   </properties>
+  </object>
+  <object id="41" name="Container" type="Container" x="48" y="176" width="16" height="16">
+   <properties>
+    <property name="AddShadow" type="bool" value="false"/>
+    <property name="IsEdge" type="bool" value="false"/>
+    <property name="SpriteNumber" type="int" value="18"/>
    </properties>
   </object>
  </objectgroup>

@@ -40,4 +40,9 @@ public class PlayerEffects : MonoBehaviour
         dashParticles.Play();
     }
 
+    private void TeleportEffect()
+    {
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+    }
+
 }
