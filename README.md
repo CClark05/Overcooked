@@ -42,7 +42,7 @@ Customers arrive and order food. Prepare each order and deliver it before their 
 - Aseprite for pixel art
 
 ## Credits
-- Based loosely on [TUTORIAL TITLE](https://www.youtube.com/watch?v=AmGSEH7QcDg) by CodeMonkey, then heavily expanded with my own systems and design
+- Based loosely on [Learn Unity Beginner/Intermediate 2026 (FREE COMPLETE Course - Unity Tutorial)](https://www.youtube.com/watch?v=AmGSEH7QcDg) by CodeMonkey, then heavily expanded with my own systems and design
 - Sound effects and music: from the tutorial above
 
 ## Status
